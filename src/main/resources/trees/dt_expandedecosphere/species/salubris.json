@@ -1,0 +1,19 @@
+{
+  "family": "dt_expandedecosphere:eucalyptus",
+  "tapering": 0.15,
+  "signal_energy": 12.0,
+  "up_probability": 0,
+  "lowest_branch_height": 3,
+  "growth_rate": 0.8,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "leaves_properties": "dt_expandedecosphere:salubris",
+  "environment_factors": {
+    "#forge:is_cold": 0.25,
+    "#is_nether": 0.75,
+    "#forge:is_wet": 0.75
+  },
+  "perfect_biomes": {
+    "name": "wythers:eucalyptus_salubris_woodland"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "block.dt_expandedecosphere.beech_branch": "Beech Tree",
+  "block.dt_expandedecosphere.eucalyptus_branch": "Eucalyptus Tree",
+  "item.dt_expandedecosphere.beech_copper_seed": "Beech Copper Seed",
+  "item.dt_expandedecosphere.beech_emerald_seed": "Beech Emerald Seed",
+  "item.dt_expandedecosphere.beech_golden_seed": "Beech Golden Seed",
+  "item.dt_expandedecosphere.salubris_seed": "Salubris Seed",
+  "species.dt_expandedecosphere.beech_copper": "Beech Copper",
+  "species.dt_expandedecosphere.beech_emerald": "Beech Emerald",
+  "species.dt_expandedecosphere.beech_golden": "Beech Golden",
+  "species.dt_expandedecosphere.eerie_dark_oak": "Eerie Dark Oak",
+  "species.dt_expandedecosphere.salubris": "Salubris"
+}

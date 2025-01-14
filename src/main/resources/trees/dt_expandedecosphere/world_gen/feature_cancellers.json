@@ -1,0 +1,74 @@
+[
+  {
+    "_comment": "Cancel any cacti from wythers biomes.",
+    "select": {
+      "names": [
+        "wythers:.*"
+      ]
+    },
+    "cancellers": {
+      "types": [
+        "tree"
+      ],
+      "namespaces": [
+        "wythers",
+        "minecraft"
+      ],
+      "stages": [
+        "SURFACE_STRUCTURES",
+        "VEGETAL_DECORATION",
+        "UNDERGROUND_DECORATION",
+        "TOP_LAYER_MODIFICATION",
+        "LOCAL_MODIFICATIONS"
+      ]
+    }
+  },
+  {
+    "_comment": "Cancel any cacti from wythers biomes.",
+    "select": {
+      "names": [
+        "wythers:.*"
+      ]
+    },
+    "only_if_loaded": "dynamictreesplus",
+    "cancellers": {
+      "types": [
+        "tree",
+        "mushroom",
+        "dynamictreesplus:cactus"
+      ],
+      "namespaces": [
+        "wythers",
+        "minecraft"
+      ],
+      "stages": [
+        "SURFACE_STRUCTURES",
+        "VEGETAL_DECORATION",
+        "UNDERGROUND_DECORATION",
+        "TOP_LAYER_MODIFICATION",
+        "LOCAL_MODIFICATIONS"
+      ]
+    }
+  },
+  {
+    "_comment": "Cancel any cacti from wythers biomes.",
+    "select": {
+      "names": [
+        "minecraft:dark_forest"
+      ]
+    },
+    "cancellers": {
+      "types": [
+        "dt_expandedecosphere:expandedecosphere"
+      ],
+      "namespaces": [
+        "wythers",
+        "minecraft"
+      ],
+      "stages": [
+        "TOP_LAYER_MODIFICATION",
+        "LOCAL_MODIFICATIONS"
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "family": "dt_expandedecosphere:beech",
+  "tapering": 0.6,
+  "signal_energy": 48.0,
+  "up_probability": 4,
+  "lowest_branch_height": 10,
+  "growth_rate": 0.8,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "max_branch_radius": 24,
+  "soil_longevity": 32,
+  "world_gen_leaf_map_height": 64,
+  "leaves_properties": "dt_expandedecosphere:beech_copper",
+  "environment_factors": {
+  },
+  "growth_logic_kit": {
+    "name": "dark_oak"
+  },
+  "perfect_biomes": {
+  },
+  "features": [
+    "vines",
+    {
+      "name": "mound",
+      "properties": {
+        "mound_cutoff_radius": 999
+      }
+    },
+    "root_system",
+    "roots",
+    "clear_volume",
+    "bee_nest"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "common_leaves": "oak",
+  "common_species": "dt_expandedecosphere:beech_copper",
+  "primitive_log": "oak_log",
+  "generate_surface_root": true,
+  "max_branch_radius": 32,
+  "max_signal_depth": 64
+}

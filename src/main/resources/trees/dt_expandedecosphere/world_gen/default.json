@@ -1,0 +1,152 @@
+[
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:birch_taiga"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 2,
+          "birch": 1
+        }
+      },
+      "density": [
+        1
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:cool_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "spruce": 2,
+          "birch": 1
+        }
+      },
+      "density": [
+        1
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:ancient_copper_beech_forest"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:beech_copper",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            3.0
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:ancient_emerald_beech_forest"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:beech_emerald",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            3.0
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:ancient_golden_beech_forest"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:beech_golden",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            3.0
+          ]
+        }
+      },
+      "multipass": true
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:eucalyptus_salubris_woodland"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:salubris",
+      "density": [
+        0.1
+      ],
+      "chance": 0.2
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:sakura_forest"
+    },
+    "apply": {
+      "species": "cherry",
+      "density": [
+        0.1
+      ],
+      "chance": 0.3
+    }
+  },
+  {
+    "_comment": "Roofed forests are handled specially. Multipass tries to close the canopy as much as possible.",
+    "select": {
+      "name": "wythers:forbidden_forest"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:eerie_dark_oak",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            3.0
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
