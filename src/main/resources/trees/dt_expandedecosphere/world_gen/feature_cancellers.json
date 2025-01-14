@@ -59,15 +59,14 @@
     },
     "cancellers": {
       "types": [
-        "dt_expandedecosphere:expandedecosphere"
+        "tree"
       ],
       "namespaces": [
         "wythers",
         "minecraft"
       ],
       "stages": [
-        "TOP_LAYER_MODIFICATION",
-        "LOCAL_MODIFICATIONS"
+        "UNDERGROUND_DECORATION"
       ]
     }
   }
