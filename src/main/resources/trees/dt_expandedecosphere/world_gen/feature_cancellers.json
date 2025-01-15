@@ -15,11 +15,8 @@
         "minecraft"
       ],
       "stages": [
-        "SURFACE_STRUCTURES",
-        "VEGETAL_DECORATION",
         "UNDERGROUND_DECORATION",
-        "TOP_LAYER_MODIFICATION",
-        "LOCAL_MODIFICATIONS"
+        "VEGETAL_DECORATION"
       ]
     }
   },
@@ -33,7 +30,6 @@
     "only_if_loaded": "dynamictreesplus",
     "cancellers": {
       "types": [
-        "tree",
         "mushroom",
         "dynamictreesplus:cactus"
       ],
@@ -42,11 +38,8 @@
         "minecraft"
       ],
       "stages": [
-        "SURFACE_STRUCTURES",
-        "VEGETAL_DECORATION",
         "UNDERGROUND_DECORATION",
-        "TOP_LAYER_MODIFICATION",
-        "LOCAL_MODIFICATIONS"
+        "VEGETAL_DECORATION"
       ]
     }
   },

@@ -4,9 +4,8 @@ import com.ferreusveritas.dynamictrees.api.worldgen.BiomePropertySelectors;
 import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
-import net.minecraft.world.level.levelgen.feature.HugeFungusConfiguration;
-import net.minecraft.world.level.levelgen.feature.RandomSelectorFeature;
-import net.minecraft.world.level.levelgen.feature.configurations.*;
+import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 
 public class PlacedTreeCanceller extends FeatureCanceller {
     public PlacedTreeCanceller(ResourceLocation registryName) {
@@ -19,13 +18,8 @@ public class PlacedTreeCanceller extends FeatureCanceller {
         FeatureConfiguration featureConfig = configuredFeature.config();
         System.out.println(featureConfig);
 
-        if (featureConfig instanceof RandomPatchConfiguration || featureConfig instanceof RandomFeatureConfiguration || featureConfig instanceof RandomSelectorFeature) {
-            return true;
-        }
 
-        if (featureConfig instanceof TreeConfiguration || featureConfig instanceof HugeFungusConfiguration || featureConfig instanceof HugeMushroomFeatureConfiguration)
-            return true;
-        return true;
+        return featureConfig instanceof TreeConfiguration;
     }
 
 

@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-14T01:49:28.8053888	Loot Tables
+// 1.20.1	2025-01-15T11:34:55.2659548	Loot Tables
 cc5be6a07c0d339c2cab6c9b5fe315cd197a8096 data/dt_expandedecosphere/loot_tables/blocks/beech_copper_leaves.json
 7ca0d4fa3f86ac9b75b5e8ff089cd8a7ebd9f12c data/dt_expandedecosphere/loot_tables/blocks/beech_emerald_leaves.json
 b3b51262b2ed75dba44cbcf3362ea421c66ed4bb data/dt_expandedecosphere/loot_tables/blocks/beech_golden_leaves.json
@@ -9,6 +9,7 @@ b3b51262b2ed75dba44cbcf3362ea421c66ed4bb data/dt_expandedecosphere/loot_tables/b
 ee443596ecada4137a7338532794559760463d4c data/dt_expandedecosphere/loot_tables/trees/leaves/beech_emerald.json
 c6e6d49236c7146e36d019ed3a1538c29e309b2b data/dt_expandedecosphere/loot_tables/trees/leaves/beech_golden.json
 b9f1b8a6cfcc9efaacee0479c567d9d3e934cdbe data/dt_expandedecosphere/loot_tables/trees/leaves/salubris.json
+6fddda89b3ee08a119a59f3f7d1554745f514259 data/dt_expandedecosphere/loot_tables/trees/voluntary/azalea_bush.json
 8592e8e1c0d935b640d964524f273cb6eb93c56b data/dt_expandedecosphere/loot_tables/trees/voluntary/beech_copper.json
 5d4f318b9637de52b2a0f47ee766009c139580b4 data/dt_expandedecosphere/loot_tables/trees/voluntary/beech_emerald.json
 bf018d4a6b538883c0fcbe73fb47ccb16ec4631d data/dt_expandedecosphere/loot_tables/trees/voluntary/beech_golden.json

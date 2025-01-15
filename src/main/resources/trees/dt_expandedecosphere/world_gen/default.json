@@ -38,6 +38,30 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_mossy_swamp"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:mossy_dark_oak": 1,
+          "dt_expandedecosphere:azalea_bush": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.8
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
     "select": {
       "name": "wythers:ancient_copper_beech_forest"
     },
@@ -125,7 +149,7 @@
         "math": {
           "div": [
             "noise",
-            3.0
+            2.5
           ]
         }
       },
