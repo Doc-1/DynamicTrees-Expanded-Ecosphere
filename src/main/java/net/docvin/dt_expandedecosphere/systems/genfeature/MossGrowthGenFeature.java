@@ -34,7 +34,7 @@ public class MossGrowthGenFeature extends GenFeature {
 
     @Override
     public @NotNull GenFeatureConfiguration createDefaultConfiguration() {
-        return super.createDefaultConfiguration().with(BLOCK, Blocks.MOSS_CARPET).with(PLACE_CHANCE, 0.1F).with(RADIUS, 4).with(GEN_PLACEMENT, 20).with(GEB_PLACE_CHANCE, 0.8F);
+        return super.createDefaultConfiguration().with(BLOCK, Blocks.MOSS_CARPET).with(PLACE_CHANCE, 0.1F).with(RADIUS, 6).with(GEN_PLACEMENT, 20).with(GEB_PLACE_CHANCE, 0.8F);
     }
 
     @Override
@@ -60,10 +60,10 @@ public class MossGrowthGenFeature extends GenFeature {
         LevelAccessor level = context.level();
         SimpleVoxmap voxmap = VoxmapUtils.getCircleVoxmap(configuration.get(RADIUS));
         BlockPos rootPos = context.pos().below(2);
-        int total = 0;
+
         for (SimpleVoxmap.Cell cell : voxmap.getAllNonZeroCells())
-            if (total <= max && level.getRandom().nextFloat() >= chance && placeMoss(level, rootPos.offset(cell.getPos()), blockState))
-                total++;
+            if (level.getRandom().nextFloat() >= chance && placeMoss(level, rootPos.offset(cell.getPos()), blockState))
+                break;
         return true;
     }
 
