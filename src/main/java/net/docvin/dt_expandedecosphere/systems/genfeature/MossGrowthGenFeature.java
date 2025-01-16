@@ -1,5 +1,6 @@
 package net.docvin.dt_expandedecosphere.systems.genfeature;
 
+import com.ferreusveritas.dynamictrees.api.TreeHelper;
 import com.ferreusveritas.dynamictrees.api.configuration.ConfigurationProperty;
 import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
 import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeatureConfiguration;
@@ -68,7 +69,9 @@ public class MossGrowthGenFeature extends GenFeature {
 
     private boolean placeMoss(LevelAccessor level, BlockPos pos, BlockState blockState) {
         for (int y = 0; y <= 6; y++) {
-            if (!level.getBlockState(pos).canBeReplaced() && level.getBlockState(pos.above()).isAir()) {
+            BlockState above = level.getBlockState(pos.above());
+            BlockState below = level.getBlockState(pos);
+            if (!below.canBeReplaced() && !below.equals(blockState) && !TreeHelper.isTreePart(below) && below.getFluidState().isEmpty() && above.isAir() && above.getFluidState().isEmpty()) {
                 level.setBlock(pos.above(), blockState, 3);
                 return true;
             }
