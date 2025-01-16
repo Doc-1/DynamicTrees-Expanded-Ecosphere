@@ -35,13 +35,6 @@
       }
     },
     {
-      "name": "random_predicate",
-      "properties": {
-        "place_chance": 1,
-        "gen_feature": "wythers:vegetation/placed_random_patch/dark_oak_root_moss"
-      }
-    },
-    {
       "name": "mushroom_rot",
       "properties": {
         "_comment": "An alternate mushroom chance of -1 means that a red mushroom will always be generated.",
@@ -55,6 +48,7 @@
         "block": "glow_lichen"
       }
     },
+    "dt_expandedecosphere:moss",
     "bottom_flare",
     "mound",
     "roots"

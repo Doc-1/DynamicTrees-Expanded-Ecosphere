@@ -46,6 +46,8 @@ public class DynamicTreesExpandedEcosphere {
         MinecraftForge.EVENT_BUS.register(this);
 
         RegistryHandler.setup(MOD_ID);
+
+
     }
 
     public static ResourceLocation location(final String path) {
