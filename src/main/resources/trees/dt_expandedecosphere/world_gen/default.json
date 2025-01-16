@@ -62,6 +62,31 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_moss_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:mossy_oak": 2,
+          "dt_expandedecosphere:azalea_bush": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.2
+          ]
+        }
+      },
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
+    }
+  },
+  {
     "select": {
       "name": "wythers:ancient_copper_beech_forest"
     },
