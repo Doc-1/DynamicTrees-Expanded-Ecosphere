@@ -1,6 +1,7 @@
 package net.docvin.dt_expandedecosphere;
 
 import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
+import com.ferreusveritas.dynamictrees.api.cell.CellKit;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryEvent;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
 import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
@@ -13,6 +14,7 @@ import com.ferreusveritas.dynamictrees.tree.family.Family;
 import com.ferreusveritas.dynamictrees.tree.species.Species;
 import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
 import com.mojang.logging.LogUtils;
+import net.docvin.dt_expandedecosphere.cellkits.DTExpandedEcosphereCellKits;
 import net.docvin.dt_expandedecosphere.growthlogic.GrowthLogicKits;
 import net.docvin.dt_expandedecosphere.systems.genfeature.DTExpandedEcosphereGenFeatures;
 import net.docvin.dt_expandedecosphere.worldgen.cancllers.PlacedTreeCanceller;
@@ -89,6 +91,11 @@ public class DynamicTreesExpandedEcosphere {
         @SubscribeEvent
         public static void registerGenFeature(final RegistryEvent<GenFeature> event) {
             DTExpandedEcosphereGenFeatures.registerGenFeatures(event);
+        }
+
+        @SubscribeEvent
+        public static void onCellKitRegistry(final RegistryEvent<CellKit> event) {
+            DTExpandedEcosphereCellKits.register(event.getRegistry());
         }
     }
 }

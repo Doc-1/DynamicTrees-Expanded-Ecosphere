@@ -1,10 +1,12 @@
 {
   "block.dt_expandedecosphere.beech_branch": "Beech Tree",
   "block.dt_expandedecosphere.eucalyptus_branch": "Eucalyptus Tree",
+  "block.dt_expandedecosphere.poplar_branch": "Poplar Tree",
   "item.dt_expandedecosphere.azalea_bush_seed": "Azalea Bush Seed",
   "item.dt_expandedecosphere.beech_copper_seed": "Beech Copper Seed",
   "item.dt_expandedecosphere.beech_emerald_seed": "Beech Emerald Seed",
   "item.dt_expandedecosphere.beech_golden_seed": "Beech Golden Seed",
+  "item.dt_expandedecosphere.poplar_seed": "Poplar Seed",
   "item.dt_expandedecosphere.salubris_seed": "Salubris Seed",
   "species.dt_expandedecosphere.azalea_bush": "Azalea Bush",
   "species.dt_expandedecosphere.beech_copper": "Beech Copper",
@@ -12,5 +14,9 @@
   "species.dt_expandedecosphere.beech_golden": "Beech Golden",
   "species.dt_expandedecosphere.eerie_dark_oak": "Eerie Dark Oak",
   "species.dt_expandedecosphere.mossy_dark_oak": "Mossy Dark Oak",
-  "species.dt_expandedecosphere.salubris": "Salubris"
+  "species.dt_expandedecosphere.mossy_oak": "Mossy Oak",
+  "species.dt_expandedecosphere.poplar": "Poplar",
+  "species.dt_expandedecosphere.salubris": "Salubris",
+  "species.dt_expandedecosphere.swamp_oak": "Swamp Oak",
+  "species.dt_expandedecosphere.ultra_spruce": "Ultra Spruce"
 }

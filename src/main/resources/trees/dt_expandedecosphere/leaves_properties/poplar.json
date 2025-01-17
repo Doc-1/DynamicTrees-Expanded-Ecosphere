@@ -1,0 +1,8 @@
+{
+  "family": "dt_expandedecosphere:poplar",
+  "primitive_leaves": "minecraft:birch_leaves",
+  "cell_kit": "dt_expandedecosphere:poplar",
+  "color": "@birch",
+  "smother": 9,
+  "light_requirement": 13
+}
