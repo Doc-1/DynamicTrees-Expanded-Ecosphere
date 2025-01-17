@@ -257,20 +257,59 @@
   {
     "_comment": "",
     "select": {
-      "name": "wythers:autumnal_flower_forest"
+      "name": "wythers:autumnal_forest"
     },
     "apply": {
       "species": {
         "random": {
-          "oak": 3,
-          "birch": 2,
+          "oak": 2,
+          "birch": 3,
           "spruce": 1
         }
       },
       "density": [
         1.2
       ],
-      "chance": 1.0,
+      "chance": 0.8,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:autumnal_flower_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 2,
+          "birch": 3,
+          "spruce": 1
+        }
+      },
+      "density": [
+        1.2
+      ],
+      "chance": 0.8,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:autumnal_forest_edge"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 2,
+          "birch": 3
+        }
+      },
+      "density": [
+        1
+      ],
+      "chance": 0.3,
       "forestness": 1.0
     }
   }
