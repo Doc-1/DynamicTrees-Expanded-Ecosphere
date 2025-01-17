@@ -229,7 +229,46 @@
     "apply": {
       "species": "dt_expandedecosphere:poplar",
       "density": [
-        1
+        1.5
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:autumnal_birch_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:poplar": 1,
+          "birch": 2
+        }
+      },
+      "density": [
+        1.2
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:autumnal_flower_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 3,
+          "birch": 2,
+          "spruce": 1
+        }
+      },
+      "density": [
+        1.2
       ],
       "chance": 1.0,
       "forestness": 1.0
