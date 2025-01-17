@@ -90,8 +90,6 @@ dependencies {
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:$dtVersion"))
 
     implementation(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
-    implementation(fg.deobf("curse.maven:pams-harvestcraft-2-trees-365460:4625518"))
-    implementation(fg.deobf("curse.maven:dynamic-trees-pams-harvestcraft-2-839090:5404454"))
     implementation(fg.deobf("curse.maven:expanded-ecosphere-490686:5004493"))
     implementation(fg.deobf("curse.maven:cristel-lib-856996:4861833"))
 
