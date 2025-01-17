@@ -45,10 +45,48 @@
     "apply": {
       "species": {
         "random": {
-          "dt_expandedecosphere:mossy_dark_oak": 1,
+          "dt_expandedecosphere:mossy_dark_oak": 2,
           "dt_expandedecosphere:azalea_bush": 1
         }
       },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.8
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_oak_swamp"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:swamp_oak",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.8
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_taiga"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:ultra_spruce",
       "density": {
         "math": {
           "div": [
@@ -69,7 +107,8 @@
     "apply": {
       "species": {
         "random": {
-          "dt_expandedecosphere:mossy_oak": 2,
+          "dt_expandedecosphere:mossy_oak": 4,
+          "dt_expandedecosphere:mossy_dark_oak": 2,
           "dt_expandedecosphere:azalea_bush": 1
         }
       },
@@ -77,7 +116,7 @@
         "math": {
           "div": [
             "noise",
-            2.2
+            1.8
           ]
         }
       },

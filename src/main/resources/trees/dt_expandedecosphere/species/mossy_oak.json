@@ -6,8 +6,7 @@
   "lowest_branch_height": 10,
   "growth_rate": 0.8,
   "soil_longevity": 14,
-  "max_branch_radius": 24,
-  "growth_logic_kit": "dark_oak",
+  "max_branch_radius": 12,
   "leaves_properties": "oak",
   "environment_factors": {
     "#forge:is_cold": 0.75,
@@ -31,7 +30,7 @@
     {
       "name": "rot_soil",
       "properties": {
-        "rotten_soil": "moss"
+        "rotten_soil": "podzol"
       }
     },
     {
@@ -44,7 +43,7 @@
     {
       "name": "vines",
       "properties": {
-        "quantity": 30,
+        "quantity": 18,
         "block": "glow_lichen"
       }
     },
