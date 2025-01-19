@@ -26,7 +26,6 @@ public class PoplarLogic extends VariateHeightLogic {
         probMap[2] = probMap[3] = probMap[4] = probMap[5] = (((signal.isInTrunk() && signal.numSteps % 2 == 0) || !signal.isInTrunk()) && signal.energy < 8) ? 2 : 0;
         probMap[originDir.ordinal()] = 0; // Disable the direction we came from
         probMap[signal.dir.ordinal()] += (signal.isInTrunk() ? 0 : signal.numTurns == 1 ? 2 : 1); // Favor current travel direction
-
         return probMap;
     }
 

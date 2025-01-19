@@ -125,56 +125,6 @@ java {
 
 val changelogFile = file("build/changelog.txt")
 
-//curseforge {
-//    if (!project.hasProperty("curseApiKey")) {
-//        project.logger.warn("API Key for CurseForge not detected; uploading will be disabled.")
-//        return@curseforge
-//    }
-//
-//    apiKey = property("curseApiKey")
-//
-//    project {
-//        id = "386753"
-//
-//        addGameVersion(mcVersion)
-//
-//        changelog = changelogFile
-//        changelogType = "markdown"
-//        releaseType = optionalProperty("versionType") ?: "release"
-//
-//        addArtifact(tasks.findByName("sourcesJar"))
-//
-//        mainArtifact(tasks.findByName("jar")) {
-//            relations {
-//                requiredDependency("dynamictrees")
-//                requiredDependency("quark")
-//                optionalDependency("dynamictreesplus")
-//            }
-//        }
-//    }
-//}
-
-//modrinth {
-//    if (!project.hasProperty("modrinthToken")) {
-//        project.logger.warn("Token for Modrinth not detected; uploading will be disabled.")
-//        return@modrinth
-//    }
-//
-//    token.set(property("modrinthToken"))
-//    projectId.set("dynamic-trees-quark")
-//    versionNumber.set("$mcVersion-$modVersion")
-//    versionType.set(optionalProperty("versionType") ?: "release")
-//    uploadFile.set(tasks.jar.get())
-//    gameVersions.add(mcVersion)
-//    if (changelogFile.exists()) {
-//        changelog.set(changelogFile.readText())
-//    }
-//    dependencies {
-//        required.version("vdjF5PL5", "$mcVersion-$dtVersion")
-//        required.version("qnQsVE2z", "$mcVersion-3.4-405")
-//    }
-//}
-
 tasks.withType<GenerateModuleMetadata> {
     enabled = false
 }
