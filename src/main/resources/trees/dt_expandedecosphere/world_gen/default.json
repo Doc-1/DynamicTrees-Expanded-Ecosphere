@@ -312,6 +312,24 @@
       "chance": 0.3,
       "forestness": 1.0
     }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:autumnal_swamp"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:eerie_swamp_dark_oak",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.5
+          ]
+        }
+      },
+      "chance": 0.5
+    }
   }
 ]
 

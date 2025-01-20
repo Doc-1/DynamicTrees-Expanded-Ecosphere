@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-17T13:41:09.0838229	Loot Tables
+// 1.20.1	2025-01-20T05:34:02.4613338	Loot Tables
 cc5be6a07c0d339c2cab6c9b5fe315cd197a8096 data/dt_expandedecosphere/loot_tables/blocks/beech_copper_leaves.json
 7ca0d4fa3f86ac9b75b5e8ff089cd8a7ebd9f12c data/dt_expandedecosphere/loot_tables/blocks/beech_emerald_leaves.json
 b3b51262b2ed75dba44cbcf3362ea421c66ed4bb data/dt_expandedecosphere/loot_tables/blocks/beech_golden_leaves.json
@@ -7,6 +7,8 @@ b3b51262b2ed75dba44cbcf3362ea421c66ed4bb data/dt_expandedecosphere/loot_tables/b
 4d3b90aa750266d4b0f12cee6bc2ecfdb7415f03 data/dt_expandedecosphere/loot_tables/trees/branches/beech.json
 696c83ad3b033165884f3e36a94ecabe23a2b7b1 data/dt_expandedecosphere/loot_tables/trees/branches/eucalyptus.json
 da8f4e6cd3bc6b55bf6f76f042195340b5f0a251 data/dt_expandedecosphere/loot_tables/trees/branches/poplar.json
+b0dcea817033a48d7cd3b1f3e1d7199fd433e8fa data/dt_expandedecosphere/loot_tables/trees/branches/stripped_beech.json
+6c957592c6edb31b0a753b3b6faa29a55fabfe8d data/dt_expandedecosphere/loot_tables/trees/branches/stripped_poplar.json
 5236d7557b0390b0fda943b419ecff5fb4addead data/dt_expandedecosphere/loot_tables/trees/leaves/beech_copper.json
 ee443596ecada4137a7338532794559760463d4c data/dt_expandedecosphere/loot_tables/trees/leaves/beech_emerald.json
 c6e6d49236c7146e36d019ed3a1538c29e309b2b data/dt_expandedecosphere/loot_tables/trees/leaves/beech_golden.json
