@@ -2,5 +2,5 @@
   "common_leaves": "birch",
   "common_species": "dt_expandedecosphere:poplar",
   "primitive_log": "birch_log",
-  "max_signal_depth": 64
+  "max_signal_depth": 18
 }

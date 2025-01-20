@@ -33,7 +33,7 @@ public class AngledGrowthLogic extends GrowthLogicKit {
         probMap[1] = 2;
         if (signal.isInTrunk()) {
             if (signal.numSteps % 3 == 0) {
-                int dist = rootPos.getY() - signal.numSteps;
+                int dist = (context.pos().getY() - rootPos.getY());
                 int i = getDirVariation(context.level(), rootPos, dist, 4);
                 probMap[1] = 1;
                 probMap[i] = 1;
@@ -43,11 +43,11 @@ public class AngledGrowthLogic extends GrowthLogicKit {
             probMap[originDir.get3DDataValue()] = flag ? 0 : 1;
             probMap[1] = flag ? 1 : 0;
         } else if (signal.numTurns >= 2) {
-            int dist = rootPos.getY() - ((context.pos().getY() - rootPos.getY()) - 1);
-            int i = getDirVariation(context.level(), rootPos, dist, 4);
-            System.out.println(dist);
-            probMap[1] = 0;
-            probMap[i] = 1;
+            int offset = (signal.numSteps - signal.numTurns - 1);
+            int i = getDirVariation(context.level(), rootPos, offset, 4);
+            boolean flag = (signal.numTurns % 2) == 0;
+            probMap[1] = flag ? 0 : 1;
+            probMap[i] = flag ? 1 : 0;
         }
         return probMap;
     }
