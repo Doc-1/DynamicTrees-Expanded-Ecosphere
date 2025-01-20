@@ -330,6 +330,28 @@
       },
       "chance": 0.5
     }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:bamboo.*"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:huangshan_pine": 2,
+          "cherry": 3
+        },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            1.3
+          ]
+        }
+      },
+      "chance": 0.7
+    }
   }
 ]
 
