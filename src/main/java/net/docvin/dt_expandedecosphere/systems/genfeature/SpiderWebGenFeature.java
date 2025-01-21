@@ -69,7 +69,7 @@ public class SpiderWebGenFeature extends GenFeature {
             if (!endPoints.isEmpty()) {
                 for (int i = 0; i < qty; i++) {
                     final BlockPos endPoint = endPoints.get(level.getRandom().nextInt(endPoints.size()));
-                    if (!nestAlreadyPresent(level, nestBlock, rootPos))
+                    if (!nestAlreadyPresent(level, nestBlock, rootPos) && level.getBlockState(endPoint).isAir())
                         this.placeBeeNestInValidPlace(configuration, context.level(), endPoint, false, context.random());
                 }
             }
