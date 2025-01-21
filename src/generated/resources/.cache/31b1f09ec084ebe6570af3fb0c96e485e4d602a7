@@ -1,9 +1,11 @@
-// 1.20.1	2025-01-20T09:52:19.1446292	Item Models: dt_expandedecosphere
+// 1.20.1	2025-01-21T10:26:29.2885411	Item Models: dt_expandedecosphere
 e64c5578fac51a8ae697f23a5d23a94fe874b147 assets/dt_expandedecosphere/models/item/azalea_bush_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/beech_branch.json
 a4aff0f3260928cb31cd606c88c91bf0eb5a666b assets/dt_expandedecosphere/models/item/beech_copper_seed.json
 e09ddf281aedcd79a7e6db759d281816ee8114c4 assets/dt_expandedecosphere/models/item/beech_emerald_seed.json
 08bcd72ae0c3ebf9141d0a113cb52c61351fbfad assets/dt_expandedecosphere/models/item/beech_golden_seed.json
+68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/cassia_branch.json
+57ae9356ef2e87bbf2fd8b37668710014d9fa8f0 assets/dt_expandedecosphere/models/item/cassia_fistula_seed.json
 9e25c32b378ee5c734863f174bf1ecc0ac21d6bb assets/dt_expandedecosphere/models/item/eucalyptus_branch.json
 4f8010483f8b2b55aed18ceaf7a79e046ee76e8a assets/dt_expandedecosphere/models/item/huangshan_pine_seed.json
 db79ec38d12dd317f4c231d88df9e2d6d00ed589 assets/dt_expandedecosphere/models/item/poplar_branch.json

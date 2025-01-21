@@ -1,0 +1,7 @@
+{
+  "family": "dt_expandedecosphere:cassia",
+  "type": "scruffy",
+  "primitive_leaves": "minecraft:azalea_leaves",
+  "cell_kit": "acacia",
+  "sound": "azalea_leaves"
+}

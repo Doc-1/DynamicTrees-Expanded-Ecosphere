@@ -334,7 +334,10 @@
   {
     "_comment": "",
     "select": {
-      "name": "wythers:bamboo.*"
+      "names": [
+        "dt_expandedecosphere:bamboo_jungle_canyon",
+        "dt_expandedecosphere:bamboo_jungle_highlands"
+      ]
     },
     "apply": {
       "species": {
@@ -342,15 +345,16 @@
           "dt_expandedecosphere:huangshan_pine": 2,
           "cherry": 3
         },
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            1.3
-          ]
-        }
-      },
-      "chance": 0.7
+        "density": {
+          "math": {
+            "div": [
+              "noise",
+              1.3
+            ]
+          }
+        },
+        "chance": 0.7
+      }
     }
   }
 ]
