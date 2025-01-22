@@ -1,6 +1,0 @@
-{
-  "parent": "dynamictrees:item/standard_seed",
-  "textures": {
-    "layer0": "dt_expandedecosphere:item/beech_golden_seed"
-  }
-}

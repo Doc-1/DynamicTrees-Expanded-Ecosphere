@@ -1,8 +1,18 @@
 {
   "values": [
-    "dt_expandedecosphere:beech_branch",
+    "dt_expandedecosphere:adansonia_branch",
     "dt_expandedecosphere:cassia_branch",
+    "dt_expandedecosphere:dalbergia_branch",
+    "dt_expandedecosphere:diospyros_branch",
     "dt_expandedecosphere:eucalyptus_branch",
-    "dt_expandedecosphere:poplar_branch"
+    "dt_expandedecosphere:fagus_branch",
+    "dt_expandedecosphere:olea_branch",
+    "dt_expandedecosphere:pinus_branch",
+    "dt_expandedecosphere:populus_branch",
+    "dt_expandedecosphere:pterocarpus_branch",
+    "dt_expandedecosphere:santalum_branch",
+    "dt_expandedecosphere:sequoia_branch",
+    "dt_expandedecosphere:swietenia_branch",
+    "dt_expandedecosphere:teak_branch"
   ]
 }

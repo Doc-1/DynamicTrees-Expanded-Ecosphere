@@ -1,12 +1,15 @@
 {
   "values": [
+    "dt_expandedecosphere:acacia_bush_seed",
     "dt_expandedecosphere:azalea_bush_seed",
-    "dt_expandedecosphere:beech_copper_seed",
-    "dt_expandedecosphere:beech_emerald_seed",
-    "dt_expandedecosphere:beech_golden_seed",
+    "dt_expandedecosphere:azalea_conifer_seed",
     "dt_expandedecosphere:cassia_fistula_seed",
+    "dt_expandedecosphere:crenata_seed",
+    "dt_expandedecosphere:grandifolia_seed",
     "dt_expandedecosphere:huangshan_pine_seed",
-    "dt_expandedecosphere:poplar_seed",
-    "dt_expandedecosphere:salubris_seed"
+    "dt_expandedecosphere:oak_bush_seed",
+    "dt_expandedecosphere:salubris_seed",
+    "dt_expandedecosphere:sylvatica_seed",
+    "dt_expandedecosphere:tremula_seed"
   ]
 }

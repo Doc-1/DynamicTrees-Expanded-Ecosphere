@@ -130,7 +130,7 @@
       "name": "wythers:ancient_copper_beech_forest"
     },
     "apply": {
-      "species": "dt_expandedecosphere:beech_copper",
+      "species": "dt_expandedecosphere:sylvatica",
       "density": {
         "math": {
           "div": [
@@ -148,7 +148,7 @@
       "name": "wythers:ancient_emerald_beech_forest"
     },
     "apply": {
-      "species": "dt_expandedecosphere:beech_emerald",
+      "species": "dt_expandedecosphere:crenata",
       "density": {
         "math": {
           "div": [
@@ -166,7 +166,7 @@
       "name": "wythers:ancient_golden_beech_forest"
     },
     "apply": {
-      "species": "dt_expandedecosphere:beech_golden",
+      "species": "dt_expandedecosphere:grandiflolia",
       "density": {
         "math": {
           "div": [
@@ -227,7 +227,7 @@
       "name": "wythers:aspen_crags"
     },
     "apply": {
-      "species": "dt_expandedecosphere:poplar",
+      "species": "dt_expandedecosphere:tremula",
       "density": [
         1.5
       ],
@@ -243,7 +243,7 @@
     "apply": {
       "species": {
         "random": {
-          "dt_expandedecosphere:poplar": 1,
+          "dt_expandedecosphere:tremula": 1,
           "birch": 2
         }
       },
