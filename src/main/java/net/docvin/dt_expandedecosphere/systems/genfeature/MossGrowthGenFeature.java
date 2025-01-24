@@ -1,6 +1,5 @@
 package net.docvin.dt_expandedecosphere.systems.genfeature;
 
-import com.ferreusveritas.dynamictrees.api.TreeHelper;
 import com.ferreusveritas.dynamictrees.api.configuration.ConfigurationProperty;
 import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
 import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeatureConfiguration;
@@ -22,6 +21,12 @@ public class MossGrowthGenFeature extends GenFeature {
     public static final ConfigurationProperty<Integer> RADIUS = ConfigurationProperty.integer("radius");
     public static final ConfigurationProperty<Integer> GEN_PLACEMENT = ConfigurationProperty.integer("gen_placement");
     public static final ConfigurationProperty<Float> GEB_PLACE_CHANCE = ConfigurationProperty.floatProperty("gen_place_chance");
+
+    public static final Block[] VALID_BLOCKS_PLACEMENT;
+
+    static {
+        VALID_BLOCKS_PLACEMENT = new Block[]{Blocks.GRASS, Blocks.STONE, Blocks.MOSS_BLOCK, Blocks.DIRT, Blocks.MUD};
+    }
 
     public MossGrowthGenFeature(ResourceLocation registryName) {
         super(registryName);
@@ -71,7 +76,15 @@ public class MossGrowthGenFeature extends GenFeature {
         for (int y = 0; y <= 6; y++) {
             BlockState above = level.getBlockState(pos.above());
             BlockState below = level.getBlockState(pos);
-            if (!below.canBeReplaced() && !below.equals(blockState) && !TreeHelper.isTreePart(below) && below.getFluidState().isEmpty() && above.isAir() && above.getFluidState().isEmpty()) {
+            boolean flag = false;
+            for (Block b : VALID_BLOCKS_PLACEMENT) {
+                if (below.is(b)) {
+                    flag = true;
+                    break;
+                }
+            }
+
+            if (flag && below.getFluidState().isEmpty() && above.isAir() && above.getFluidState().isEmpty()) {
                 level.setBlock(pos.above(), blockState, 3);
                 return true;
             }
