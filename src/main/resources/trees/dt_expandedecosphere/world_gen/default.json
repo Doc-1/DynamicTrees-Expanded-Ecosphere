@@ -334,10 +334,7 @@
   {
     "_comment": "",
     "select": {
-      "names": [
-        "dt_expandedecosphere:bamboo_jungle_canyon",
-        "dt_expandedecosphere:bamboo_jungle_highlands"
-      ]
+      "name": "dt_expandedecosphere:bamboo_jungle_canyon"
     },
     "apply": {
       "species": {
