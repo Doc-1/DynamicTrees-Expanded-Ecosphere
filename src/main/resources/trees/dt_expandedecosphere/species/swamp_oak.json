@@ -49,6 +49,12 @@
     },
     "bottom_flare",
     "mound",
-    "roots"
+    "roots",
+    {
+      "name": "dt_expandedecosphere:replace_grass",
+      "properties": {
+        "radius": 8
+      }
+    }
   ]
 }

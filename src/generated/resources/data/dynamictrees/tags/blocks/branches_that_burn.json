@@ -1,18 +1,30 @@
 {
   "values": [
+    "dt_expandedecosphere:acer_branch",
     "dt_expandedecosphere:adansonia_branch",
+    "dt_expandedecosphere:bombax_branch",
     "dt_expandedecosphere:cassia_branch",
+    "dt_expandedecosphere:corymbia_branch",
+    "dt_expandedecosphere:cupressus_branch",
     "dt_expandedecosphere:dalbergia_branch",
     "dt_expandedecosphere:diospyros_branch",
     "dt_expandedecosphere:eucalyptus_branch",
     "dt_expandedecosphere:fagus_branch",
+    "dt_expandedecosphere:handroanthus_branch",
+    "dt_expandedecosphere:jacaranda_branch",
+    "dt_expandedecosphere:larix_branch",
     "dt_expandedecosphere:olea_branch",
+    "dt_expandedecosphere:pandanus_branch",
+    "dt_expandedecosphere:paubrasilia_branch",
     "dt_expandedecosphere:pinus_branch",
     "dt_expandedecosphere:populus_branch",
+    "dt_expandedecosphere:pseudotsuga_branch",
     "dt_expandedecosphere:pterocarpus_branch",
     "dt_expandedecosphere:santalum_branch",
+    "dt_expandedecosphere:sclerocarya_branch",
     "dt_expandedecosphere:sequoia_branch",
     "dt_expandedecosphere:swietenia_branch",
-    "dt_expandedecosphere:teak_branch"
+    "dt_expandedecosphere:taxodium_branch",
+    "dt_expandedecosphere:tectona_branch"
   ]
 }

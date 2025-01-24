@@ -1,131 +1,5 @@
 [
   {
-    "_comment": "",
-    "select": {
-      "name": "wythers:birch_taiga"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "oak": 2,
-          "birch": 1
-        }
-      },
-      "density": [
-        1
-      ],
-      "chance": 1.0,
-      "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:cool_forest"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "spruce": 2,
-          "birch": 1
-        }
-      },
-      "density": [
-        1
-      ],
-      "chance": 1.0,
-      "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:ancient_mossy_swamp"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "dt_expandedecosphere:mossy_dark_oak": 2,
-          "dt_expandedecosphere:azalea_bush": 1
-        }
-      },
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            2.8
-          ]
-        }
-      },
-      "multipass": true,
-      "chance": 1
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:ancient_oak_swamp"
-    },
-    "apply": {
-      "species": "dt_expandedecosphere:swamp_oak",
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            2.8
-          ]
-        }
-      },
-      "multipass": true,
-      "chance": 1
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:ancient_taiga"
-    },
-    "apply": {
-      "species": "dt_expandedecosphere:ultra_spruce",
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            2.8
-          ]
-        }
-      },
-      "multipass": true,
-      "chance": 1
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:ancient_moss_forest"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "dt_expandedecosphere:mossy_oak": 4,
-          "dt_expandedecosphere:mossy_dark_oak": 2,
-          "dt_expandedecosphere:azalea_bush": 1
-        }
-      },
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            1.8
-          ]
-        }
-      },
-      "multipass": true,
-      "forestness": 1.0,
-      "chance": 1
-    }
-  },
-  {
     "select": {
       "name": "wythers:ancient_copper_beech_forest"
     },
@@ -176,6 +50,132 @@
         }
       },
       "multipass": true
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_mossy_swamp"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:mossy_dark_oak": 2,
+          "dt_expandedecosphere:azalea_bush": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.8
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_oak_swamp"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:swamp_oak",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.8
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:birch_taiga"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 2,
+          "birch": 1
+        }
+      },
+      "density": [
+        1
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:cool_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "spruce": 2,
+          "birch": 1
+        }
+      },
+      "density": [
+        1
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_taiga"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:ultra_spruce",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.8
+          ]
+        }
+      },
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:ancient_moss_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:mossy_oak": 4,
+          "dt_expandedecosphere:mossy_dark_oak": 2,
+          "dt_expandedecosphere:azalea_bush": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            1.8
+          ]
+        }
+      },
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
     }
   },
   {

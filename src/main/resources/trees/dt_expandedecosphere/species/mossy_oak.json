@@ -47,6 +47,14 @@
         "block": "glow_lichen"
       }
     },
+    {
+      "name": "dt_expandedecosphere:replace_grass",
+      "properties": {
+        "radius": 8,
+        "block": "moss_block",
+        "gen_place_chance": 0.9
+      }
+    },
     "dt_expandedecosphere:moss",
     "bottom_flare",
     "mound",

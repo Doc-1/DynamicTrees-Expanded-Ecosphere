@@ -1,18 +1,30 @@
 {
   "values": [
+    "dt_expandedecosphere:stripped_acer_branch",
     "dt_expandedecosphere:stripped_adansonia_branch",
+    "dt_expandedecosphere:stripped_bombax_branch",
     "dt_expandedecosphere:stripped_cassia_branch",
+    "dt_expandedecosphere:stripped_corymbia_branch",
+    "dt_expandedecosphere:stripped_cupressus_branch",
     "dt_expandedecosphere:stripped_dalbergia_branch",
     "dt_expandedecosphere:stripped_diospyros_branch",
     "dt_expandedecosphere:stripped_eucalyptus_branch",
     "dt_expandedecosphere:stripped_fagus_branch",
+    "dt_expandedecosphere:stripped_handroanthus_branch",
+    "dt_expandedecosphere:stripped_jacaranda_branch",
+    "dt_expandedecosphere:stripped_larix_branch",
     "dt_expandedecosphere:stripped_olea_branch",
+    "dt_expandedecosphere:stripped_pandanus_branch",
+    "dt_expandedecosphere:stripped_paubrasilia_branch",
     "dt_expandedecosphere:stripped_pinus_branch",
     "dt_expandedecosphere:stripped_populus_branch",
+    "dt_expandedecosphere:stripped_pseudotsuga_branch",
     "dt_expandedecosphere:stripped_pterocarpus_branch",
     "dt_expandedecosphere:stripped_santalum_branch",
+    "dt_expandedecosphere:stripped_sclerocarya_branch",
     "dt_expandedecosphere:stripped_sequoia_branch",
     "dt_expandedecosphere:stripped_swietenia_branch",
-    "dt_expandedecosphere:stripped_teak_branch"
+    "dt_expandedecosphere:stripped_taxodium_branch",
+    "dt_expandedecosphere:stripped_tectona_branch"
   ]
 }
