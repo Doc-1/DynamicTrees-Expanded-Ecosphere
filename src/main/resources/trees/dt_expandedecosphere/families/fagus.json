@@ -1,6 +1,5 @@
 {
   "common_leaves": "oak",
-  "common_species": "dt_expandedecosphere:crenata",
   "primitive_log": "oak_log",
   "primitive_stripped_log": "stripped_oak_log",
   "generate_surface_root": true,

@@ -40,7 +40,7 @@
       "name": "wythers:ancient_golden_beech_forest"
     },
     "apply": {
-      "species": "dt_expandedecosphere:grandiflolia",
+      "species": "dt_expandedecosphere:grandifolia",
       "density": {
         "math": {
           "div": [
@@ -49,7 +49,8 @@
           ]
         }
       },
-      "multipass": true
+      "multipass": true,
+      "chance": 1
     }
   },
   {

@@ -61,7 +61,6 @@ public class MossGrowthGenFeature extends GenFeature {
         LevelAccessor level = context.level();
         SimpleVoxmap voxmap = VoxmapUtils.getCircleVoxmap(configuration.get(RADIUS));
         BlockPos rootPos = context.pos().below(2);
-
         for (SimpleVoxmap.Cell cell : voxmap.getAllNonZeroCells())
             if (level.getRandom().nextFloat() >= chance && placeMoss(level, rootPos.offset(cell.getPos()), blockState))
                 break;
