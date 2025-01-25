@@ -80,6 +80,32 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:ancient_moss_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:mossy_oak": 4,
+          "dt_expandedecosphere:mossy_dark_oak": 2,
+          "dt_expandedecosphere:azalea_bush": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            1.8
+          ]
+        }
+      },
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:ancient_oak_swamp"
     },
     "apply": {
@@ -178,6 +204,43 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:autumnal_swamp"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:swamp_mangrove": 3,
+          "dt_expandedecosphere:dark_oak_swamp": 2
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.5
+          ]
+        }
+      },
+      "chance": 0.8
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:aspen_crags"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:tremula",
+      "density": [
+        1.5
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:birch_taiga"
     },
     "apply": {
@@ -211,32 +274,6 @@
       ],
       "chance": 1.0,
       "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:ancient_moss_forest"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "dt_expandedecosphere:mossy_oak": 4,
-          "dt_expandedecosphere:mossy_dark_oak": 2,
-          "dt_expandedecosphere:azalea_bush": 1
-        }
-      },
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            1.8
-          ]
-        }
-      },
-      "multipass": true,
-      "forestness": 1.0,
-      "chance": 1
     }
   },
   {
@@ -280,38 +317,6 @@
       },
       "multipass": true,
       "chance": 1
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:aspen_crags"
-    },
-    "apply": {
-      "species": "dt_expandedecosphere:tremula",
-      "density": [
-        1.5
-      ],
-      "chance": 1.0,
-      "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:autumnal_swamp"
-    },
-    "apply": {
-      "species": "dt_expandedecosphere:eerie_swamp_dark_oak",
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            2.5
-          ]
-        }
-      },
-      "chance": 0.5
     }
   },
   {

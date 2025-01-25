@@ -1,5 +1,6 @@
-// 1.20.1	2025-01-25T14:35:26.19154	Loot Tables
+// 1.20.1	2025-01-25T17:05:04.8255912	Loot Tables
 d190964d79b0c4d167cd7dfdcffbea334aa26604 data/dt_expandedecosphere/loot_tables/blocks/crenata_leaves_leaves.json
+8248314f305511effb03346b311f9cb2cbd68aa3 data/dt_expandedecosphere/loot_tables/blocks/dark_oak_swamp_leaves_leaves.json
 f407b56096ad12dbbb4fafd1d75e06187ca50db5 data/dt_expandedecosphere/loot_tables/blocks/fistula_leaves.json
 b71efbdfd2f3f1315158780605e7f806b5e372de data/dt_expandedecosphere/loot_tables/blocks/grandifolia_leaves_leaves.json
 7cd156723e659fc5e6a35885a6033c1a0e555d9f data/dt_expandedecosphere/loot_tables/blocks/salubris_leaves.json
@@ -58,6 +59,7 @@ b39f51688f2bd12e7ec03328fea2514a9de3595f data/dt_expandedecosphere/loot_tables/t
 e3804d13b27ee798e174d0018c33f5bd1e28c97a data/dt_expandedecosphere/loot_tables/trees/branches/taxodium.json
 65cf832480bb26f57b6fe7957368694b2d9c6260 data/dt_expandedecosphere/loot_tables/trees/branches/tectona.json
 2cd978f0c8f48c73663d4979d3525c0b3f1335e9 data/dt_expandedecosphere/loot_tables/trees/leaves/crenata_leaves.json
+8806cbcaa4761c829d239649268effa0c699c483 data/dt_expandedecosphere/loot_tables/trees/leaves/dark_oak_swamp_leaves.json
 abf6464f6db967dc62ddc5833876e43aff9bb7da data/dt_expandedecosphere/loot_tables/trees/leaves/fistula.json
 bacffb66feda26a48fc4e9b39de0bfaa3b185a3e data/dt_expandedecosphere/loot_tables/trees/leaves/grandifolia_leaves.json
 b9f1b8a6cfcc9efaacee0479c567d9d3e934cdbe data/dt_expandedecosphere/loot_tables/trees/leaves/salubris.json
