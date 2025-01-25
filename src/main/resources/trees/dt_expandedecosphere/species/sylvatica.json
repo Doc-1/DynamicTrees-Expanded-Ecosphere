@@ -7,7 +7,7 @@
   "growth_rate": 0.8,
   "generate_seed": true,
   "generate_sapling": true,
-  "max_branch_radius": 24,
+  "max_branch_radius": 23,
   "soil_longevity": 32,
   "world_gen_leaf_map_height": 64,
   "leaves_properties": "dt_expandedecosphere:sylvatica_leaves",

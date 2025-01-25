@@ -99,6 +99,45 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:autumnal_birch_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:tremula": 1,
+          "birch": 2
+        }
+      },
+      "density": [
+        1.2
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:autumnal_flower_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "tall_birch": 1,
+          "oak": 1,
+          "dt_expandedecosphere:strobus": 1
+        }
+      },
+      "density": [
+        1.2
+      ],
+      "chance": 0.8,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:birch_taiga"
     },
     "apply": {
@@ -132,25 +171,6 @@
       ],
       "chance": 1.0,
       "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:ancient_taiga"
-    },
-    "apply": {
-      "species": "dt_expandedecosphere:ultra_spruce",
-      "density": {
-        "math": {
-          "div": [
-            "noise",
-            2.8
-          ]
-        }
-      },
-      "multipass": true,
-      "chance": 1
     }
   },
   {
@@ -239,46 +259,7 @@
   {
     "_comment": "",
     "select": {
-      "name": "wythers:autumnal_birch_forest"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "dt_expandedecosphere:tremula": 1,
-          "birch": 2
-        }
-      },
-      "density": [
-        1.2
-      ],
-      "chance": 1.0,
-      "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
       "name": "wythers:autumnal_forest"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "oak": 2,
-          "birch": 3,
-          "spruce": 1
-        }
-      },
-      "density": [
-        1.2
-      ],
-      "chance": 0.8,
-      "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:autumnal_flower_forest"
     },
     "apply": {
       "species": {

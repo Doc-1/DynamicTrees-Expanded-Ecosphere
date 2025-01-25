@@ -1,6 +1,5 @@
 {
   "common_leaves": "azalea",
-  "common_species": "dt_expandedecosphere:cassia_fistula",
   "primitive_log": "oak_log",
   "primitive_stripped_log": "stripped_oak_log",
   "max_signal_depth": 10

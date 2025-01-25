@@ -1,6 +1,6 @@
 {
   "parent": "dynamictrees:item/standard_seed",
   "textures": {
-    "layer0": "dt_expandedecosphere:item/cassia_fistula_seed"
+    "layer0": "dt_expandedecosphere:item/fistula_seed"
   }
 }

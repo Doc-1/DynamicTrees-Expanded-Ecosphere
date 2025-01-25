@@ -12,11 +12,11 @@
               "rarity": 1.0
             }
           ],
-          "name": "dt_expandedecosphere:cassia_fistula_seed"
+          "name": "dt_expandedecosphere:fistula_seed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dt_expandedecosphere:trees/voluntary/cassia_fistula"
+  "random_sequence": "dt_expandedecosphere:trees/voluntary/fistula"
 }
