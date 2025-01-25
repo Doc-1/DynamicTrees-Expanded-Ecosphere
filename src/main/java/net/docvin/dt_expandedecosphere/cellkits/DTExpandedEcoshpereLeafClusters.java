@@ -33,18 +33,5 @@ public class DTExpandedEcoshpereLeafClusters {
             0, 0, 0
     }).setCenter(new BlockPos(1, 1, 1));
 
-    public static final SimpleVoxmap POPLAR_TOP = new SimpleVoxmap(3, 3, 3, new byte[]{
-            0, 1, 0,
-            1, 0, 1,
-            0, 1, 0,
-
-            0, 0, 0,
-            0, 2, 0,
-            0, 0, 0,
-
-            0, 0, 0,
-            0, 1, 0,
-            0, 0, 0
-    }).setCenter(new BlockPos(1, 0, 1));
 
 }

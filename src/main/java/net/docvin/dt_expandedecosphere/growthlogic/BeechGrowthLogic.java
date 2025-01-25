@@ -15,10 +15,10 @@ public class BeechGrowthLogic extends GrowthLogicKit {
     @Override
     public int[] populateDirectionProbabilityMap(GrowthLogicKitConfiguration configuration, DirectionManipulationContext context) {
         final int[] probMap = context.probMap();
-        for (Direction dir : Direction.Plane.HORIZONTAL) {
-            probMap[dir.get3DDataValue()] *= 5;
-        }
-        probMap[Direction.UP.get3DDataValue()] *= 2;
+        for (Direction dir : Direction.Plane.HORIZONTAL)
+            probMap[dir.get3DDataValue()] = 5;
+
+        probMap[Direction.UP.get3DDataValue()] = 2;
         return probMap;
     }
 }

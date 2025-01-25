@@ -64,6 +64,7 @@ public class DTExpandedEcosphereCellKits {
         }
 
     };
+
     public static final CellKit SPARSE = new CellKit(DynamicTreesExpandedEcosphere.location("sparse")) {
 
         private final Cell sparseBranch = new SparseBranchCell();
@@ -99,7 +100,7 @@ public class DTExpandedEcosphereCellKits {
     };
 
     public static void register(final Registry<CellKit> registry) {
-        registry.registerAll(DTExpandedEcosphereCellKits.SPARSE, DTExpandedEcosphereCellKits.POPLAR);
+        registry.registerAll(SPARSE, POPLAR);
     }
 
 

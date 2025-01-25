@@ -23,6 +23,7 @@ public class ReplaceGrassWithBlockGenFeature extends GenFeature {
 
     public ReplaceGrassWithBlockGenFeature(ResourceLocation registryName) {
         super(registryName);
+
     }
 
     @Override
