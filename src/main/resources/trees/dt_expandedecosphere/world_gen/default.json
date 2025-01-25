@@ -138,6 +138,46 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:autumnal_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "tall_birch": 2,
+          "oak": 3,
+          "dt_expandedecosphere:strobus": 1
+        }
+      },
+      "density": [
+        1.2
+      ],
+      "chance": 0.8,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:autumnal_forest_edge"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:oak_bush": 2,
+          "birch": 3,
+          "dt_expandedecosphere:strobus": 1
+        }
+      },
+      "density": [
+        1
+      ],
+      "chance": 0.3,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:birch_taiga"
     },
     "apply": {
@@ -253,45 +293,6 @@
         1.5
       ],
       "chance": 1.0,
-      "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:autumnal_forest"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "oak": 2,
-          "birch": 3,
-          "spruce": 1
-        }
-      },
-      "density": [
-        1.2
-      ],
-      "chance": 0.8,
-      "forestness": 1.0
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:autumnal_forest_edge"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "oak": 2,
-          "birch": 3
-        }
-      },
-      "density": [
-        1
-      ],
-      "chance": 0.3,
       "forestness": 1.0
     }
   },
