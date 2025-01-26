@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "dt_expandedecosphere:block/palm_leaves/jungle_palm_leaves_frond"
+      },
+      "when": {
+        "distance": "1|2"
+      }
+    },
+    {
+      "apply": {
+        "model": "dt_expandedecosphere:block/palm_leaves/jungle_palm_leaves_core_top"
+      },
+      "when": {
+        "distance": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "dt_expandedecosphere:block/palm_leaves/jungle_palm_leaves_core_bottom"
+      },
+      "when": {
+        "distance": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jungle_leaves"
+      },
+      "when": {
+        "OR": [
+          {
+            "direction": "0",
+            "distance": "1|2"
+          },
+          {
+            "distance": "5|6|7"
+          }
+        ]
+      }
+    }
+  ]
+}

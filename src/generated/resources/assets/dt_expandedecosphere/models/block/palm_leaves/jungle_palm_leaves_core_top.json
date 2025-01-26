@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:block/smartmodel/palm/core_top",
+  "textures": {
+    "frond": "dt_expandedecosphere:block/jungle_palm_leaves_frond"
+  }
+}

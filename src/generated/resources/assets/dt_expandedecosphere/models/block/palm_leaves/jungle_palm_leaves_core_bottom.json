@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:block/smartmodel/palm/core_bottom",
+  "textures": {
+    "core_bottom": "dt_expandedecosphere:block/jungle_palm_leaves_base"
+  }
+}

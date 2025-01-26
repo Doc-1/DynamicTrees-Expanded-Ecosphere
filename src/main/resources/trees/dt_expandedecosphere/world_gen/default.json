@@ -254,6 +254,29 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:bamboo_jungle_swamp"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:fistula": 1,
+          "dt_expandedecosphere:grandis": 2,
+          "dt_expandedecosphere:album": 1,
+          "dt_expandedecosphere:latifolia": 2,
+          "dt_expandedecosphere:ebenum": 3,
+          "dt_expandedecosphere:jungle_palm": 4
+        }
+      },
+      "density": [
+        2
+      ],
+      "forestness": 1.0,
+      "chance": "standard"
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:birch_taiga"
     },
     "apply": {

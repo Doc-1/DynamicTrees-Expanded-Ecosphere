@@ -1,11 +1,15 @@
 {
   "values": [
+    "dt_expandedecosphere:album_sapling",
     "dt_expandedecosphere:azalea_conifer_sapling",
     "dt_expandedecosphere:crenata_sapling",
+    "dt_expandedecosphere:ebenum_sapling",
     "dt_expandedecosphere:fistula_sapling",
     "dt_expandedecosphere:grandifolia_sapling",
     "dt_expandedecosphere:grandis_sapling",
     "dt_expandedecosphere:hwangshanensis_sapling",
+    "dt_expandedecosphere:jungle_palm_sapling",
+    "dt_expandedecosphere:latifolia_sapling",
     "dt_expandedecosphere:salubris_sapling",
     "dt_expandedecosphere:strobus_sapling",
     "dt_expandedecosphere:sylvatica_sapling",
