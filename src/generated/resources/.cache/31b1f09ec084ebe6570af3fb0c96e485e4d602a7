@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-25T17:04:07.7603161	Item Models: dt_expandedecosphere
+// 1.20.1	2025-01-25T22:49:56.5793679	Item Models: dt_expandedecosphere
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/acer_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/adansonia_branch.json
 4b9c475719a931ddf9beb69f8fceb1a356c12f56 assets/dt_expandedecosphere/models/item/azalea_conifer_seed.json
@@ -13,6 +13,7 @@ cd96fac2ee1712d67bddfef3859015eccbf475a3 assets/dt_expandedecosphere/models/item
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/fagus_branch.json
 b1242647cdf98030f44188475166b87bfdf9c9f9 assets/dt_expandedecosphere/models/item/fistula_seed.json
 a5d59c918c3703ad1f9d33777142248f52ce345c assets/dt_expandedecosphere/models/item/grandifolia_seed.json
+3414fc6c8eae97d9860a626ad332d3741f541294 assets/dt_expandedecosphere/models/item/grandis_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/handroanthus_branch.json
 5e7441eb0d381f527a3305d9935775decccd87de assets/dt_expandedecosphere/models/item/hwangshanensis_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/jacaranda_branch.json
@@ -32,5 +33,5 @@ de4e1bd549a1bb822fffd258a2db45bc81565471 assets/dt_expandedecosphere/models/item
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/swietenia_branch.json
 702e511f0ff93f7ed1ac3dbce0f4cd322978c1d2 assets/dt_expandedecosphere/models/item/sylvatica_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/taxodium_branch.json
-68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/tectona_branch.json
+88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/tectona_branch.json
 8a91d8464b63ce4001f3a00d5dc37ea77b4dedee assets/dt_expandedecosphere/models/item/tremula_seed.json

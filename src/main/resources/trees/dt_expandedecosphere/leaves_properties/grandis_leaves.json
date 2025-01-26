@@ -1,0 +1,6 @@
+{
+  "family": "dt_expandedecosphere:tectona",
+  "primitive_leaves": "minecraft:jungle_leaves",
+  "cell_kit": "conifer",
+  "smother": 9
+}

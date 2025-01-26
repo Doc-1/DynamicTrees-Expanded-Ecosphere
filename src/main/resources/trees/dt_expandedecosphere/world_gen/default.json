@@ -109,7 +109,7 @@
       "name": "wythers:ancient_oak_swamp"
     },
     "apply": {
-      "species": "dt_expandedecosphere:swamp_oak",
+      "species": "dt_expandedecosphere:oak_swamp",
       "density": {
         "math": {
           "div": [
@@ -120,6 +120,33 @@
       },
       "multipass": true,
       "chance": 1
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:ancient_taiga"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:ultra_spruce",
+      "density": [
+        2.2
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:aspen_crags"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:tremula",
+      "density": [
+        1.5
+      ],
+      "chance": 1.0,
+      "forestness": 1.0
     }
   },
   {
@@ -222,20 +249,6 @@
         }
       },
       "chance": 0.8
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "wythers:aspen_crags"
-    },
-    "apply": {
-      "species": "dt_expandedecosphere:tremula",
-      "density": [
-        1.5
-      ],
-      "chance": 1.0,
-      "forestness": 1.0
     }
   },
   {

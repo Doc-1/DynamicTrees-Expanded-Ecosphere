@@ -1,8 +1,7 @@
 {
-  "common_leaves": "oak",
-  "common_species": "oak",
-  "primitive_log": "oak_log",
-  "primitive_stripped_log": "stripped_oak_log",
-  "max_branch_radius": 8,
-  "max_signal_depth": 16
+  "common_leaves": "jungle",
+  "primitive_log": "jungle_log",
+  "primitive_stripped_log": "stripped_jungle_log",
+  "max_branch_radius": 19,
+  "max_signal_depth": 24
 }
