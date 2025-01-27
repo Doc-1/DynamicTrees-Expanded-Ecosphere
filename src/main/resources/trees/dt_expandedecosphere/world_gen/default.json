@@ -277,6 +277,46 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:bamboo_jungle_canyon"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "cherry": 1,
+          "dt_expandedecosphere:hwangshanensis": 2
+        }
+      },
+      "density": [
+        0.5
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": "standard"
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:bamboo_jungle_highlands"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "cherry": 1,
+          "dt_expandedecosphere:hwangshanensis": 2
+        }
+      },
+      "density": [
+        0.5
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": "standard"
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:birch_taiga"
     },
     "apply": {
