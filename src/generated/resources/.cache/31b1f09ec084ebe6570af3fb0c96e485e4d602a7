@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-26T11:35:50.3230325	Item Models: dt_expandedecosphere
+// 1.20.1	2025-01-27T12:57:13.9519598	Item Models: dt_expandedecosphere
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/acer_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/adansonia_branch.json
 b4859642372821fe276565d93a62778e832648a7 assets/dt_expandedecosphere/models/item/album_seed.json
@@ -10,6 +10,7 @@ cd96fac2ee1712d67bddfef3859015eccbf475a3 assets/dt_expandedecosphere/models/item
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/cupressus_branch.json
 88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/dalbergia_branch.json
 88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/diospyros_branch.json
+f2a57014acc44a2f9e6ab8c14c5638230bfa04ac assets/dt_expandedecosphere/models/item/distichum_seed.json
 8c4219173df35f5bf8e9ccd6d7dcd48f12be945b assets/dt_expandedecosphere/models/item/ebenum_seed.json
 9e25c32b378ee5c734863f174bf1ecc0ac21d6bb assets/dt_expandedecosphere/models/item/eucalyptus_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/fagus_branch.json
@@ -37,6 +38,6 @@ db79ec38d12dd317f4c231d88df9e2d6d00ed589 assets/dt_expandedecosphere/models/item
 de4e1bd549a1bb822fffd258a2db45bc81565471 assets/dt_expandedecosphere/models/item/strobus_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/swietenia_branch.json
 702e511f0ff93f7ed1ac3dbce0f4cd322978c1d2 assets/dt_expandedecosphere/models/item/sylvatica_seed.json
-68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/taxodium_branch.json
+1f9425675ff3d713f0dd06fd3d1177c66513087a assets/dt_expandedecosphere/models/item/taxodium_branch.json
 88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/tectona_branch.json
 8a91d8464b63ce4001f3a00d5dc37ea77b4dedee assets/dt_expandedecosphere/models/item/tremula_seed.json

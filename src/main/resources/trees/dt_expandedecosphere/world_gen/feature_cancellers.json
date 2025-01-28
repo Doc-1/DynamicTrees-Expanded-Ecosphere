@@ -41,5 +41,25 @@
         "VEGETAL_DECORATION"
       ]
     }
+  },
+  {
+    "_comment": "Cancel any cacti from wythers biomes.",
+    "select": {
+      "name": "minecraft:dark_forest"
+    },
+    "cancellers": {
+      "types": [
+        "tree",
+        "rooted_tree"
+      ],
+      "namespaces": [
+        "wythers",
+        "minecraft"
+      ],
+      "stages": [
+        "UNDERGROUND_DECORATION",
+        "VEGETAL_DECORATION"
+      ]
+    }
   }
 ]

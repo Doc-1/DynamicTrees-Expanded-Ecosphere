@@ -4,6 +4,7 @@ import com.ferreusveritas.dynamictrees.api.GatherDataHelper;
 import com.ferreusveritas.dynamictrees.api.cell.CellKit;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryEvent;
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
+import com.ferreusveritas.dynamictrees.api.registry.TypeRegistryEvent;
 import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
@@ -17,6 +18,7 @@ import com.mojang.logging.LogUtils;
 import net.docvin.dt_expandedecosphere.cellkits.DTExpandedEcosphereCellKits;
 import net.docvin.dt_expandedecosphere.growthlogic.GrowthLogicKits;
 import net.docvin.dt_expandedecosphere.systems.genfeature.DTExpandedEcosphereGenFeatures;
+import net.docvin.dt_expandedecosphere.tree.species.UnderwaterGenSpecies;
 import net.docvin.dt_expandedecosphere.worldgen.cancllers.PlacedTreeCanceller;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
@@ -91,6 +93,11 @@ public class DynamicTreesExpandedEcosphere {
         @SubscribeEvent
         public static void registerGenFeature(final RegistryEvent<GenFeature> event) {
             DTExpandedEcosphereGenFeatures.registerGenFeatures(event);
+        }
+
+        @SubscribeEvent
+        public static void registerSpeciesTypes(final TypeRegistryEvent<Species> event) {
+            event.registerType(location("underwater_gen"), UnderwaterGenSpecies.TYPE);
         }
 
         @SubscribeEvent

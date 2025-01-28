@@ -18,7 +18,6 @@ public class AngledGrowthLogic extends GrowthLogicKit {
     }
 
     public static int getDirVariation(LevelAccessor world, BlockPos rootPos, int offset, int dirVariation) {
-
         return 2 + (CoordUtils.coordHashCode(rootPos.above(offset), 2) % dirVariation);//Vary the direction by a psuedorandom hash function
     }
 
