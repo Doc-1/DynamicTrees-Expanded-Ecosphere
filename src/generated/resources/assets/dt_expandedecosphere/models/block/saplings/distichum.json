@@ -1,5 +1,5 @@
 {
-  "parent": "dynamictrees:block/smartmodel/water_sapling",
+  "parent": "dynamictrees:block/smartmodel/sapling",
   "render_type": "minecraft:cutout_mipped",
   "textures": {
     "leaves": "minecraft:block/spruce_leaves",

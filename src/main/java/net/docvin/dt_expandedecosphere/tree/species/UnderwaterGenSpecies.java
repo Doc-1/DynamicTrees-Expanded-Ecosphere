@@ -14,16 +14,17 @@ public class UnderwaterGenSpecies extends Species {
 
     public static final TypedRegistry.EntryType<Species> TYPE = createDefaultType(UnderwaterGenSpecies::new);
 
+    //Use "allowed_water_height_for_world_gen": int in trees/modid/species/species.json to set max depth of tree
+
     public UnderwaterGenSpecies(ResourceLocation name, Family family, LeavesProperties leavesProperties) {
         super(name, family, leavesProperties);
-        this.setAllowedWaterHeightForWorldgen(5);
+
     }
 
 
     @Override
     public boolean isAcceptableSoilForWorldgen(LevelAccessor level, BlockPos pos, BlockState soilBlockState) {
-
-        // If the block is water, check the block below it is valid soil (and not water).
+        // If the block is water, check the blocks below it is valid soil (and not water).
         if (isWater(soilBlockState)) {
             int maxH = getAllowedWaterHeightForWorldgen();
             int waterBelow = countWaterBlocksBelow(level, pos, maxH + 2);

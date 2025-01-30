@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-27T14:12:23.0846803	Block States: dt_expandedecosphere
+// 1.20.1	2025-01-29T11:06:16.4116759	Block States: dt_expandedecosphere
 b5358c9727946b194dea4408d6dcf666ca18bcd8 assets/dt_expandedecosphere/blockstates/acer_branch.json
 a5227e61cd452e93e986a95af202f135c5bbeb0c assets/dt_expandedecosphere/blockstates/adansonia_branch.json
 a82f9fc1c2378f77e75442eb41b6eff31ae0c687 assets/dt_expandedecosphere/blockstates/album_leaves_leaves.json
@@ -114,7 +114,7 @@ b501cdf4d823a839cb321bc083c32cf985943cd3 assets/dt_expandedecosphere/models/bloc
 62beaa82e8dcb5cbc3652ef27ac4bd8138abce43 assets/dt_expandedecosphere/models/block/saplings/album.json
 b465c30f23ed200e7d6b139fa4ba3e6ce2e66ca6 assets/dt_expandedecosphere/models/block/saplings/azalea_conifer.json
 b465c30f23ed200e7d6b139fa4ba3e6ce2e66ca6 assets/dt_expandedecosphere/models/block/saplings/crenata.json
-155309780fc942df4c7cc25f5eb76b0fdaf941e9 assets/dt_expandedecosphere/models/block/saplings/distichum.json
+67eec8e4af38521639999b6cc9efb0b4d5eeb194 assets/dt_expandedecosphere/models/block/saplings/distichum.json
 62beaa82e8dcb5cbc3652ef27ac4bd8138abce43 assets/dt_expandedecosphere/models/block/saplings/ebenum.json
 b465c30f23ed200e7d6b139fa4ba3e6ce2e66ca6 assets/dt_expandedecosphere/models/block/saplings/fistula.json
 7a849487d3813ef0bcd33e55299ef4e396af2777 assets/dt_expandedecosphere/models/block/saplings/grandifolia.json

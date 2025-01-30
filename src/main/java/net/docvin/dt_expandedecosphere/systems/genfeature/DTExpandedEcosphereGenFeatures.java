@@ -10,10 +10,12 @@ public class DTExpandedEcosphereGenFeatures {
     public static final GenFeature MOSS = new MossGrowthGenFeature(DynamicTreesExpandedEcosphere.location("moss"));
     public static final GenFeature REPLACE_GRASS = new ReplaceGrassWithBlockGenFeature(DynamicTreesExpandedEcosphere.location("replace_grass"));
 
+    public static final GenFeature FILL_VOLUME = new FillVolumeGenFeature(DynamicTreesExpandedEcosphere.location("fill_volume"));
+
     public DTExpandedEcosphereGenFeatures() {
     }
 
     public static void registerGenFeatures(RegistryEvent<GenFeature> event) {
-        event.getRegistry().registerAll(COBWEB, REPLACE_GRASS, MOSS);
+        event.getRegistry().registerAll(COBWEB, REPLACE_GRASS, MOSS, FILL_VOLUME);
     }
 }

@@ -332,7 +332,8 @@
     "apply": {
       "species": {
         "random": {
-          "dt_expandedecosphere:distichum": 2
+          "dt_expandedecosphere:distichum": 1,
+          "dt_expandedecosphere:distichum_submerged": 1
         }
       },
       "density": [
