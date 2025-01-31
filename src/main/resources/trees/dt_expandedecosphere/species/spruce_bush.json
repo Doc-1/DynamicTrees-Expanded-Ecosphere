@@ -1,8 +1,22 @@
 {
-  "family": "oak",
-  "tapering": 1,
-  "signal_energy": 1,
-  "up_probability": 1,
-  "lowest_branch_height": 4,
-  "growth_rate": 1
+  "family": "spruce",
+  "tapering": 0,
+  "signal_energy": 4,
+  "up_probability": 0,
+  "lowest_branch_height": 0,
+  "growth_rate": 0.7,
+  "leaves_properties": "spruce",
+  "growth_logic_kit": "azalea",
+  "force_soil": "rooted_dirt",
+  "acceptable_soils": [
+    "dirt_like"
+  ],
+  "features": [
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotten_soil": "podzol"
+      }
+    }
+  ]
 }
