@@ -330,12 +330,7 @@
       "name": "wythers:bayou"
     },
     "apply": {
-      "species": {
-        "random": {
-          "dt_expandedecosphere:distichum": 1,
-          "dt_expandedecosphere:distichum_submerged": 1
-        }
-      },
+      "species": "dt_expandedecosphere:distichum",
       "density": [
         0.1
       ],

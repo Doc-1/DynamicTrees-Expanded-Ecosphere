@@ -18,7 +18,7 @@ import com.mojang.logging.LogUtils;
 import net.docvin.dt_expandedecosphere.cellkits.DTExpandedEcosphereCellKits;
 import net.docvin.dt_expandedecosphere.growthlogic.GrowthLogicKits;
 import net.docvin.dt_expandedecosphere.systems.genfeature.DTExpandedEcosphereGenFeatures;
-import net.docvin.dt_expandedecosphere.tree.species.UnderwaterGenSpecies;
+import net.docvin.dt_expandedecosphere.tree.species.SubmersibleSpecies;
 import net.docvin.dt_expandedecosphere.worldgen.cancllers.PlacedTreeCanceller;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
@@ -97,7 +97,7 @@ public class DynamicTreesExpandedEcosphere {
 
         @SubscribeEvent
         public static void registerSpeciesTypes(final TypeRegistryEvent<Species> event) {
-            event.registerType(location("underwater_gen"), UnderwaterGenSpecies.TYPE);
+            event.registerType(location("submersible"), SubmersibleSpecies.TYPE);
         }
 
         @SubscribeEvent

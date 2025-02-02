@@ -1,10 +1,8 @@
 {
-  "type": "dt_expandedecosphere:underwater_gen",
   "family": "dt_expandedecosphere:taxodium",
   "acceptable_soils": [
     "dirt_like",
-    "mud_like",
-    "water_like"
+    "mud_like"
   ],
   "model_overrides": {
     "sapling": "dynamictrees:block/smartmodel/water_sapling"

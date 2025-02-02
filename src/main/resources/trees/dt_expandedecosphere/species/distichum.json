@@ -1,9 +1,11 @@
 {
+  "type": "dt_expandedecosphere:submersible",
   "family": "dt_expandedecosphere:taxodium",
   "acceptable_soils": [
     "dirt_like",
     "mud_like"
   ],
+  "submerged_species": "dt_expandedecosphere:distichum_submerged",
   "tapering": 0.5,
   "signal_energy": 20.0,
   "up_probability": 6,

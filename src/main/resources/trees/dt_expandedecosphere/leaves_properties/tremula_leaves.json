@@ -1,7 +1,7 @@
 {
-  "family": "dt_expandedecosphere:poplar",
+  "family": "dt_expandedecosphere:populus",
   "primitive_leaves": "minecraft:birch_leaves",
-  "cell_kit": "dt_expandedecosphere:poplar",
+  "cell_kit": "dt_expandedecosphere:populus",
   "smother": 9,
   "light_requirement": 13
 }
