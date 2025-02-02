@@ -381,6 +381,19 @@
     }
   },
   {
+    "select": {
+      "name": "wythers:birch_swamp"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:birch_swamp",
+      "density": [
+        2
+      ],
+      "chance": 0.8,
+      "forestness": 1.0
+    }
+  },
+  {
     "_comment": "",
     "select": {
       "name": "wythers:birch_taiga"
