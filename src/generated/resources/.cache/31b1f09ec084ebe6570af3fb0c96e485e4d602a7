@@ -1,11 +1,12 @@
-// 1.20.1	2025-02-02T14:36:52.3351887	Item Models: dt_expandedecosphere
+// 1.20.1	2025-02-02T16:07:18.4862295	Item Models: dt_expandedecosphere
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/acer_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/adansonia_branch.json
 b4859642372821fe276565d93a62778e832648a7 assets/dt_expandedecosphere/models/item/album_seed.json
+59f077297c9a3ab0400ff32c862938c96dcfa56c assets/dt_expandedecosphere/models/item/aparrerinja_seed.json
 4b9c475719a931ddf9beb69f8fceb1a356c12f56 assets/dt_expandedecosphere/models/item/azalea_conifer_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/bombax_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/cassia_branch.json
-68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/corymbia_branch.json
+6a494bb244a42e8531f539eab538c3b80c21d505 assets/dt_expandedecosphere/models/item/corymbia_branch.json
 cd96fac2ee1712d67bddfef3859015eccbf475a3 assets/dt_expandedecosphere/models/item/crenata_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/cupressus_branch.json
 88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/dalbergia_branch.json

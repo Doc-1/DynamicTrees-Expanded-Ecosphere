@@ -362,6 +362,27 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:billabong"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_bush": 1,
+          "dt_expandedecosphere:acacia_bush": 1,
+          "dt_expandedecosphere:birch_bush": 1,
+          "dt_expandedecosphere:jungle_bush": 1,
+          "dt_expandedecosphere:aparrerinja": 2
+        }
+      },
+      "density": [
+        2
+      ],
+      "chance": 0.55
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:birch_taiga"
     },
     "apply": {
