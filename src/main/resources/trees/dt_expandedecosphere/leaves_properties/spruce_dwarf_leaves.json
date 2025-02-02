@@ -1,0 +1,7 @@
+{
+  "primitive_leaves": "minecraft:spruce_leaves",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 6,
+  "light_requirement": 12,
+  "can_grow_on_ground": true
+}

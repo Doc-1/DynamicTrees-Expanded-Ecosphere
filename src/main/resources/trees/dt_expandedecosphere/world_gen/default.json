@@ -350,7 +350,7 @@
           "dt_expandedecosphere:spruce_bush": 1,
           "dt_expandedecosphere:oak_bush": 1,
           "dt_expandedecosphere:azalea_bush": 1,
-          "spruce": 3
+          "dt_expandedecosphere:spruce_dwarf": 3
         }
       },
       "density": [

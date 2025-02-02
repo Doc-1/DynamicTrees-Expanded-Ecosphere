@@ -61,7 +61,6 @@ public class SubmersibleSpecies extends Species {
         LevelAccessor level = context.level();
         //System.out.println("gen " + pos + " " + level.getBlockState(pos));
         if (isSubmerged(level, pos)) {
-            System.out.println(pos.above() + " dasdaf");
             return submerged.generate(context);
         }
         return super.generate(context);
@@ -84,7 +83,6 @@ public class SubmersibleSpecies extends Species {
         if (isSubmerged(level, pos)) {
             return submerged.transitionToTree(level, pos);
         }
-
         return super.transitionToTree(level, pos, family);
     }
 

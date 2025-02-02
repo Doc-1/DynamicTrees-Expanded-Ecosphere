@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-31T04:59:36.5586386	Item Models: dt_expandedecosphere
+// 1.20.1	2025-02-02T14:36:52.3351887	Item Models: dt_expandedecosphere
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/acer_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/adansonia_branch.json
 b4859642372821fe276565d93a62778e832648a7 assets/dt_expandedecosphere/models/item/album_seed.json
@@ -36,6 +36,7 @@ db79ec38d12dd317f4c231d88df9e2d6d00ed589 assets/dt_expandedecosphere/models/item
 88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/santalum_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/sclerocarya_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/sequoia_branch.json
+62af4740fa865faaf841325a17e20113e11b1efa assets/dt_expandedecosphere/models/item/spruce_dwarf_seed.json
 de4e1bd549a1bb822fffd258a2db45bc81565471 assets/dt_expandedecosphere/models/item/strobus_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/swietenia_branch.json
 702e511f0ff93f7ed1ac3dbce0f4cd322978c1d2 assets/dt_expandedecosphere/models/item/sylvatica_seed.json
