@@ -4,5 +4,6 @@
   "primitive_stripped_log": "stripped_spruce_log",
   "max_branch_radius": 24,
   "generate_surface_root": true,
-  "max_signal_depth": 64
+  "max_signal_depth": 64,
+  "conifer_variants": true
 }

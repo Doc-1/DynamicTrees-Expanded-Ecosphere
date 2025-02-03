@@ -480,6 +480,18 @@
     }
   },
   {
+    "select": {
+      "name": "wythers:cold_island"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:strobus",
+      "density": [
+        2
+      ],
+      "chance": 0.7
+    }
+  },
+  {
     "_comment": "",
     "select": {
       "name": "wythers:birch_taiga"
@@ -506,12 +518,13 @@
     "apply": {
       "species": {
         "random": {
-          "spruce": 2,
-          "birch": 1
+          "oak": 2,
+          "birch": 1,
+          "dt_expandedecosphere:strobus": 3
         }
       },
       "density": [
-        1
+        2
       ],
       "chance": 1.0,
       "forestness": 1.0
