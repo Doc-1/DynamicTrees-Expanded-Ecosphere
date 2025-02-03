@@ -450,6 +450,26 @@
   {
     "_comment": "",
     "select": {
+      "name": "wythers:chaparral"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:oak_bush": 1,
+          "dt_expandedecosphere:birch_bush": 1,
+          "dt_expandedecosphere:spruce_bush": 1,
+          "oak": 1
+        }
+      },
+      "density": [
+        2
+      ],
+      "chance": 0.6
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
       "name": "wythers:birch_taiga"
     },
     "apply": {
