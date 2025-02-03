@@ -468,6 +468,18 @@
     }
   },
   {
+    "select": {
+      "name": "wythers:coastal_mangroves"
+    },
+    "apply": {
+      "species": "mangrove",
+      "density": [
+        2
+      ],
+      "chance": 0.8
+    }
+  },
+  {
     "_comment": "",
     "select": {
       "name": "wythers:birch_taiga"
