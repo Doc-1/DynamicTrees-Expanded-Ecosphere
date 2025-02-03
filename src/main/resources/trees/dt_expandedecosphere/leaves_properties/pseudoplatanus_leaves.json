@@ -1,7 +1,6 @@
 {
   "type": "scruffy",
   "primitive_leaves": "minecraft:dark_oak_leaves",
-  "color": "11334720",
-  "scruffy_leaf_chance": 0.66,
-  "scruffy_max_hydro": 1
+  "color": "16770101",
+  "scruffy_leaf_chance": 0.66
 }
