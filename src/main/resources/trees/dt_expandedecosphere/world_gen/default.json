@@ -518,15 +518,41 @@
     "apply": {
       "species": {
         "random": {
-          "oak": 2,
-          "birch": 1,
-          "dt_expandedecosphere:strobus": 3
+          "oak": 3,
+          "birch": 2,
+          "dt_expandedecosphere:strobus": 1,
+          "dt_expandedecosphere:oak_bush": 1,
+          "dt_expandedecosphere:birch_bush": 1,
+          "dt_expandedecosphere:spruce_bush": 1
         }
       },
       "density": [
         2
       ],
       "chance": 1.0,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:cool_forest_edge"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 3,
+          "birch": 2,
+          "dt_expandedecosphere:strobus": 1,
+          "dt_expandedecosphere:oak_bush": 3,
+          "dt_expandedecosphere:birch_bush": 1,
+          "dt_expandedecosphere:birch_dwarf": 2
+        }
+      },
+      "density": [
+        1.5
+      ],
+      "chance": 0.7,
       "forestness": 1.0
     }
   },
