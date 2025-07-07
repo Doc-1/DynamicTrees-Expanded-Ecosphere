@@ -557,6 +557,35 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:crimson_tundra"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_bush": 1,
+          "dt_expandedecosphere:spruce_bush": 1,
+          "dt_expandedecosphere:spruce_dwarf": 3
+        }
+      },
+      "density": [
+        2.1
+      ],
+      "chance": 0.5
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:deep_snowy_taiga"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:spruce_snowy",
+      "chance": 0.5
+    }
+  },
+  {
     "select": {
       "name": "wythers:eucalyptus_salubris_woodland"
     },
