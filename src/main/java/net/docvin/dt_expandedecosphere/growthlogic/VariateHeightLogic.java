@@ -1,6 +1,5 @@
 package net.docvin.dt_expandedecosphere.growthlogic;
 
-import com.ferreusveritas.dynamictrees.api.configuration.ConfigurationProperty;
 import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKit;
 import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKitConfiguration;
 import com.ferreusveritas.dynamictrees.growthlogic.context.PositionalSpeciesContext;
@@ -12,9 +11,7 @@ import net.minecraft.world.level.LevelAccessor;
 import org.jetbrains.annotations.NotNull;
 
 public class VariateHeightLogic extends GrowthLogicKit {
-
-    public static final ConfigurationProperty<Integer> LOWEST_BRANCH_VARIATION = ConfigurationProperty.integer("lowest_branch_variation");
-
+    
     public VariateHeightLogic(ResourceLocation registryName) {
         super(registryName);
     }

@@ -1,5 +1,6 @@
 package net.docvin.dt_expandedecosphere.growthlogic;
 
+import com.ferreusveritas.dynamictrees.api.configuration.ConfigurationProperty;
 import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKit;
 import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKitConfiguration;
 import com.ferreusveritas.dynamictrees.growthlogic.context.DirectionManipulationContext;
@@ -9,16 +10,29 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.LevelAccessor;
+import org.jetbrains.annotations.NotNull;
 
 public class AngledGrowthLogic extends GrowthLogicKit {
 
-
+    public static final ConfigurationProperty<Integer> MAX_HEIGHT = ConfigurationProperty.integer("max_height");
+    
     public AngledGrowthLogic(ResourceLocation registryName) {
         super(registryName);
     }
 
     public static int getDirVariation(LevelAccessor world, BlockPos rootPos, int offset, int dirVariation) {
         return 2 + (CoordUtils.coordHashCode(rootPos.above(offset), 2) % dirVariation);//Vary the direction by a psuedorandom hash function
+    }
+
+    @Override
+    protected @NotNull GrowthLogicKitConfiguration createDefaultConfiguration() {
+        return super.createDefaultConfiguration()
+                .with(MAX_HEIGHT, 10);
+    }
+
+    @Override
+    protected void registerProperties() {
+        this.register(MAX_HEIGHT);
     }
 
     @Override
@@ -29,10 +43,11 @@ public class AngledGrowthLogic extends GrowthLogicKit {
         BlockPos rootPos = signal.rootPos;
 
         probMap[0] = 0; //Never go down.
+
         probMap[1] = 2;
+        int dist = (context.pos().getY() - rootPos.getY());
         if (signal.isInTrunk()) {
             if (signal.numSteps % 3 == 0) { //Makes sure branches start growing every 3 blocks high from the last branch. This prevents branches from overlapping
-                int dist = (context.pos().getY() - rootPos.getY());
                 int i = getDirVariation(context.level(), rootPos, dist, 4);
                 probMap[1] = 1;
                 probMap[i] = 1;
@@ -48,7 +63,11 @@ public class AngledGrowthLogic extends GrowthLogicKit {
             probMap[1] = flag ? 0 : 1;
             probMap[i] = flag ? 1 : 0;
         }
+
+        if (dist >= configuration.get(MAX_HEIGHT) && probMap[1] > 0)
+            signal.energy = 0;
         return probMap;
     }
+
 
 }
