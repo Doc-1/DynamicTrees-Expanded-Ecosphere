@@ -586,6 +586,60 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:desert_lakes"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:jungle_desert_lake",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            0.3
+          ]
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:desert_river"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:jungle_desert_lake",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            0.6
+          ]
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:desert_island"
+    },
+    "apply": {
+      "species": "jungle",
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            0.3
+          ]
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
     "select": {
       "name": "wythers:eucalyptus_salubris_woodland"
     },
