@@ -641,6 +641,18 @@
   },
   {
     "select": {
+      "name": "wythers:dripleaf_swamp"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:acacia_swamp",
+      "density": [
+        2
+      ],
+      "chance": 0.6
+    }
+  },
+  {
+    "select": {
       "name": "wythers:eucalyptus_salubris_woodland"
     },
     "apply": {
