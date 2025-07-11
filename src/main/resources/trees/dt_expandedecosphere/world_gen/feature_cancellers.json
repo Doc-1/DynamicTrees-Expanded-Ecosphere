@@ -6,7 +6,7 @@
     },
     "cancellers": {
       "types": [
-        "tree",
+        "dt_expandedecosphere:trees",
         "rooted_tree"
       ],
       "namespaces": [
@@ -27,7 +27,7 @@
     "only_if_loaded": "dynamictreesplus",
     "cancellers": {
       "types": [
-        "tree",
+        "dt_expandedecosphere:trees",
         "rooted_tree",
         "mushroom",
         "dynamictreesplus:cactus"
@@ -49,7 +49,7 @@
     },
     "cancellers": {
       "types": [
-        "tree",
+        "dt_expandedecosphere:trees",
         "rooted_tree"
       ],
       "namespaces": [

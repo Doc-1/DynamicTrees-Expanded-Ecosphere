@@ -8,6 +8,7 @@ import com.ferreusveritas.dynamictrees.api.registry.TypeRegistryEvent;
 import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
 import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
+import com.ferreusveritas.dynamictrees.event.BiomeSuitabilityEvent;
 import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKit;
 import com.ferreusveritas.dynamictrees.systems.fruit.Fruit;
 import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
@@ -19,8 +20,14 @@ import net.docvin.dt_expandedecosphere.cellkits.DTExpandedEcosphereCellKits;
 import net.docvin.dt_expandedecosphere.growthlogic.GrowthLogicKits;
 import net.docvin.dt_expandedecosphere.systems.genfeature.DTExpandedEcosphereGenFeatures;
 import net.docvin.dt_expandedecosphere.tree.species.SubmersibleSpecies;
-import net.docvin.dt_expandedecosphere.worldgen.cancllers.PlacedTreeCanceller;
+import net.docvin.dt_expandedecosphere.worldgen.cancllers.ExpandedEcosphereTreeCanceller;
+import net.minecraft.core.Registry;
+import net.minecraft.core.RegistryAccess;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,6 +37,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import java.util.Map;
 
 
 @Mod(DynamicTreesExpandedEcosphere.MOD_ID)
@@ -78,7 +87,7 @@ public class DynamicTreesExpandedEcosphere {
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class DTExpandedEcosphereRegistries {
-        public static final FeatureCanceller TREE_CANCELLER = new PlacedTreeCanceller(new ResourceLocation(MOD_ID + ":expandedecosphere"));
+        public static final FeatureCanceller TREE_CANCELLER = new ExpandedEcosphereTreeCanceller<>(new ResourceLocation(MOD_ID + ":trees"), TreeConfiguration.class);
 
         @SubscribeEvent
         public static void onFeatureCancellerRegistry(final RegistryEvent<FeatureCanceller> event) {
@@ -104,5 +113,25 @@ public class DynamicTreesExpandedEcosphere {
         public static void onCellKitRegistry(final RegistryEvent<CellKit> event) {
             DTExpandedEcosphereCellKits.register(event.getRegistry());
         }
+    }
+
+    @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
+    public static class ServerEventHandler {
+
+        @SubscribeEvent
+        public static void onBiomeLoading(BiomeSuitabilityEvent event) {
+            RegistryAccess registryAccess = event.getLevel().registryAccess();
+            Registry<ConfiguredFeature<?, ?>> configuredFeatureRegistry =
+                    registryAccess.registryOrThrow(Registries.CONFIGURED_FEATURE);
+
+            for (Map.Entry<ResourceKey<ConfiguredFeature<?, ?>>, ConfiguredFeature<?, ?>> entry : configuredFeatureRegistry.entrySet()) {
+                ResourceLocation name = entry.getKey().location();
+                ConfiguredFeature<?, ?> feature = entry.getValue();
+
+                // Now you can compare or log
+                System.out.println("Loaded ConfiguredFeature: " + name);
+            }
+        }
+
     }
 }
