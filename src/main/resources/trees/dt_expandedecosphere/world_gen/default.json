@@ -653,6 +653,41 @@
   },
   {
     "select": {
+      "name": "wythers:dry_savanna"
+    },
+    "apply": {
+      "species": "acacia",
+      "density": [
+        1
+      ],
+      "chance": 0.1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:dry_tropical_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "acacia": 1,
+          "dt_expandedecosphere:melanoxylon": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            0.5
+          ]
+        }
+      },
+      "chance": 1
+    }
+  },
+  {
+    "select": {
       "name": "wythers:eucalyptus_salubris_woodland"
     },
     "apply": {
