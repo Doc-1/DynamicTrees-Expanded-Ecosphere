@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-11T16:58:26.2407102	Item Models: dt_expandedecosphere
+// 1.20.1	2025-07-12T12:02:33.419524	Item Models: dt_expandedecosphere
 63c5ea58f779c45d7cc6582d3959a22bb6f64386 assets/dt_expandedecosphere/models/item/acacia_swamp_seed.json
 a32c202fbb6da4e7a874208dd9cec27baf149104 assets/dt_expandedecosphere/models/item/acer_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/adansonia_branch.json
@@ -48,4 +48,5 @@ de4e1bd549a1bb822fffd258a2db45bc81565471 assets/dt_expandedecosphere/models/item
 702e511f0ff93f7ed1ac3dbce0f4cd322978c1d2 assets/dt_expandedecosphere/models/item/sylvatica_seed.json
 1f9425675ff3d713f0dd06fd3d1177c66513087a assets/dt_expandedecosphere/models/item/taxodium_branch.json
 88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/tectona_branch.json
+fdaea9837586512fcbdfad60521364b7ee443b5d assets/dt_expandedecosphere/models/item/thorn_bush_branch.json
 8a91d8464b63ce4001f3a00d5dc37ea77b4dedee assets/dt_expandedecosphere/models/item/tremula_seed.json

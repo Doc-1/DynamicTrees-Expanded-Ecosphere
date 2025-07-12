@@ -1,0 +1,9 @@
+{
+  "common_leaves": "dt_expandedecosphere:thorn_bush_leaves",
+  "primitive_log": "mangrove_log",
+  "generate_stripped_branch": false,
+  "texture_overrides": {
+    "branch": "block/mangrove_roots_side",
+    "branch_top": "block/mangrove_roots_top"
+  }
+}

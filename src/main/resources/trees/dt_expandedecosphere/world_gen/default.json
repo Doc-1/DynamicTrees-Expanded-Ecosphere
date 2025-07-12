@@ -688,6 +688,18 @@
   },
   {
     "select": {
+      "name": "wythers:dry_tropical_grassland"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:thorn_bush",
+      "density": [
+        1
+      ],
+      "chance": 0.3
+    }
+  },
+  {
+    "select": {
       "name": "wythers:eucalyptus_salubris_woodland"
     },
     "apply": {

@@ -26,6 +26,7 @@
   "block.dt_expandedecosphere.swietenia_branch": "Swietenia Tree",
   "block.dt_expandedecosphere.taxodium_branch": "Taxodium Tree",
   "block.dt_expandedecosphere.tectona_branch": "Tectona Tree",
+  "block.dt_expandedecosphere.thorn_bush_branch": "Thorn Bush Tree",
   "item.dt_expandedecosphere.acacia_swamp_seed": "Acacia Swamp Seed",
   "item.dt_expandedecosphere.album_seed": "Album Seed",
   "item.dt_expandedecosphere.aparrerinja_seed": "Aparrerinja Seed",
@@ -112,6 +113,7 @@
   "species.dt_expandedecosphere.swamp_mangrove": "Swamp Mangrove",
   "species.dt_expandedecosphere.sylvatica": "Sylvatica",
   "species.dt_expandedecosphere.tectorius": "Tectorius",
+  "species.dt_expandedecosphere.thorn_bush": "Thorn Bush",
   "species.dt_expandedecosphere.tremula": "Tremula",
   "species.dt_expandedecosphere.tremuloides": "Tremuloides",
   "species.dt_expandedecosphere.ultra_spruce": "Ultra Spruce"
