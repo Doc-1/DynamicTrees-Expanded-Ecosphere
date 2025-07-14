@@ -1,5 +1,6 @@
 {
   "common_leaves": "acacia",
   "common_species": "dt_expandedecosphere:salubris",
-  "primitive_log": "stripped_acacia_log"
+  "primitive_log": "stripped_acacia_log",
+  "max_branch_radius": 24
 }

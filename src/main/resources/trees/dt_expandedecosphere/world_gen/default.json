@@ -699,6 +699,118 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:eucalyptus_deanei_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_bush": 1,
+          "dt_expandedecosphere:spruce_bush": 1,
+          "dt_expandedecosphere:deanei": 2,
+          "dt_expandedecosphere:mega_deanei": 4
+        }
+      },
+      "density": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "forestness": 1.0,
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:eucalyptus_jungle"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_bush": 1,
+          "dt_expandedecosphere:deanei": 2,
+          "dt_expandedecosphere:mega_deanei": 4,
+          "jungle": 4,
+          "mega_jungle": 3,
+          "cocoa": 1
+        }
+      },
+      "density": [
+        1,
+        1,
+        3,
+        2,
+        2,
+        2
+      ],
+      "forestness": 1.0,
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:eucalyptus_jungle_canyon"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_bush": 1,
+          "dt_expandedecosphere:deanei": 2,
+          "dt_expandedecosphere:mega_deanei": 4,
+          "jungle": 4,
+          "mega_jungle": 3,
+          "cocoa": 1,
+          "dt_expandedecosphere:thorn_bush": 1
+        }
+      },
+      "density": [
+        1,
+        1,
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "forestness": 1.0,
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:eucalyptus_woodland"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_bush": 1,
+          "dt_expandedecosphere:deanei": 2,
+          "jungle": 4,
+          "dt_expandedecosphere:thorn_bush": 1,
+          "aparrerinja_leaves": 1
+        }
+      },
+      "density": [
+        1,
+        3,
+        2,
+        1,
+        2
+      ],
+      "forestness": 1.0,
+      "multipass": true,
+      "chance": 1
+    }
+  },
+  {
     "select": {
       "name": "wythers:eucalyptus_salubris_woodland"
     },
@@ -739,29 +851,6 @@
       },
       "multipass": true,
       "chance": 1
-    }
-  },
-  {
-    "_comment": "",
-    "select": {
-      "name": "dt_expandedecosphere:bamboo_jungle_canyon"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "dt_expandedecosphere:huangshan_pine": 2,
-          "cherry": 3
-        },
-        "density": {
-          "math": {
-            "div": [
-              "noise",
-              1.3
-            ]
-          }
-        },
-        "chance": 0.7
-      }
     }
   }
 ]

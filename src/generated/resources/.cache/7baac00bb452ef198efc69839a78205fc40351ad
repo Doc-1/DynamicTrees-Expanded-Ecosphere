@@ -1,5 +1,5 @@
-// 1.20.1	2025-07-12T10:47:26.2475134	dt_expandedecosphere DT Block Tags
+// 1.20.1	2025-07-12T21:01:44.2386577	dt_expandedecosphere DT Block Tags
 fea4329d30104b1a3acc292bbba4e46dc32385af data/dynamictrees/tags/blocks/branches_that_burn.json
-91207e6753b9a2257d39b4a4fe7e0d49caf39aeb data/dynamictrees/tags/blocks/leaves.json
-e1906e338ea79df93448c4477e5bb0e0e7750fb4 data/dynamictrees/tags/blocks/saplings.json
+a063aa5b2e81ec5a1fd256dea4cee2cdfe34fd10 data/dynamictrees/tags/blocks/leaves.json
+2887460567d3a41d915405b65280c5ab8dfccf60 data/dynamictrees/tags/blocks/saplings.json
 4cd33950406871b8311fce650db8bd36fe0c8901 data/dynamictrees/tags/blocks/stripped_branches_that_burn.json

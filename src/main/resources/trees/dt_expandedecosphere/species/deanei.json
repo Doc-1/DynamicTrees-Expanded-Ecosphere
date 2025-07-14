@@ -1,9 +1,17 @@
 {
-  "family": "oak",
-  "tapering": 1,
-  "signal_energy": 1,
-  "up_probability": 1,
-  "lowest_branch_height": 4,
-  "growth_rate": 1
+  "family": "dt_expandedecosphere:eucalyptus",
+  "tapering": 0.8,
+  "signal_energy": 24.0,
+  "up_probability": 3,
+  "lowest_branch_height": 5,
+  "growth_rate": 1.0,
+  "growth_logic_kit": "jungle",
+  "generate_seed": true,
+  "generate_sapling": true,
+  "leaves_properties": "dt_expandedecosphere:deanei_leaves",
+  "environment_factors": {
+    "#forge:is_cold": 0.25,
+    "#is_nether": 0.75,
+    "#forge:is_wet": 0.75
+  }
 }
-

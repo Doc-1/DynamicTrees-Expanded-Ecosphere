@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:mangrove_leaves"
+              "name": "minecraft:acacia_leaves"
             },
             {
               "type": "dynamictrees:seed_item",
@@ -134,5 +134,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dt_expandedecosphere:blocks/thorn_bush_leaves_leaves"
+  "random_sequence": "dt_expandedecosphere:blocks/deanei_leaves_leaves"
 }
