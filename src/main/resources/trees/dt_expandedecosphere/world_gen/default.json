@@ -835,6 +835,24 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:fen"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:strobus": 1,
+          "dt_expandedecosphere:pseudoplatanus": 1
+        }
+      },
+      "density": [
+        2
+      ],
+      "chance": 0.5
+    }
+  },
+  {
     "_comment": "Roofed forests are handled specially. Multipass tries to close the canopy as much as possible.",
     "select": {
       "name": "wythers:forbidden_forest"
