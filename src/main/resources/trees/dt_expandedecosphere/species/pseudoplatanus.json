@@ -5,6 +5,7 @@
   "lowest_branch_height": 5,
   "growth_rate": 0.8,
   "leaves_properties": "dt_expandedecosphere:pseudoplatanus_leaves",
+  "growth_logic_kit": "dt_expandedecosphere:maple",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.7

@@ -10,8 +10,9 @@ public class GrowthLogicKits {
     public static final GrowthLogicKit VariateHeight = new VariateHeightLogic(DynamicTreesExpandedEcosphere.location("variate_height"));
     public static final GrowthLogicKit POPLAR = new PoplarLogic(DynamicTreesExpandedEcosphere.location("poplar"));
     public static final GrowthLogicKit ANGLED = new AngledGrowthLogic(DynamicTreesExpandedEcosphere.location("angled"));
+    public static final GrowthLogicKit MAPLE = new MapleGrowthLogic(DynamicTreesExpandedEcosphere.location("maple"));
 
     public static void register(final Registry<GrowthLogicKit> registry) {
-        registry.registerAll(BEECH, VariateHeight, POPLAR, ANGLED);
+        registry.registerAll(BEECH, VariateHeight, POPLAR, ANGLED, MAPLE);
     }
 }
