@@ -1,5 +1,5 @@
 # DynamicTrees-Expanded Ecosphere
-This mod adds compatibility between two of my favorite mods, DynamicTress and William Wythers' Expanded Ecosphere. As of July 11, 2025, the mod is ~57% complete. However, please don't use this as a timescale for how much longer it will take to finish.
+This mod adds compatibility between two of my favorite mods, DynamicTress and William Wythers' Expanded Ecosphere. As of July 15, 2025, the mod is ~60% complete. However, please don't use this as a timescale for how much longer it will take to finish.
 # Current Biomes Done:
 - ancient_copper_beech_forest
 - ancient_emerald_beech_forest
@@ -69,3 +69,10 @@ This mod adds compatibility between two of my favorite mods, DynamicTress and Wi
 - dripleaf_swamp
 - dry_savanna
 - dry_tropical_forest
+- dry_tropical_grassland
+- eucalyptus_deanei_forest
+- eucalyptus_jungle
+- eucalyptus_jungle_canyon
+- eucalyptus_salubris_woodland
+- eucalyptus_woodland
+- fen
