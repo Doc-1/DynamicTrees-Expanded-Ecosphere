@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-12T21:01:44.2356657	Item Models: dt_expandedecosphere
+// 1.20.1	2025-07-18T18:05:19.3973454	Item Models: dt_expandedecosphere
 63c5ea58f779c45d7cc6582d3959a22bb6f64386 assets/dt_expandedecosphere/models/item/acacia_swamp_seed.json
 a32c202fbb6da4e7a874208dd9cec27baf149104 assets/dt_expandedecosphere/models/item/acer_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/adansonia_branch.json
@@ -22,8 +22,9 @@ f2a57014acc44a2f9e6ab8c14c5638230bfa04ac assets/dt_expandedecosphere/models/item
 b1242647cdf98030f44188475166b87bfdf9c9f9 assets/dt_expandedecosphere/models/item/fistula_seed.json
 a5d59c918c3703ad1f9d33777142248f52ce345c assets/dt_expandedecosphere/models/item/grandifolia_seed.json
 3414fc6c8eae97d9860a626ad332d3741f541294 assets/dt_expandedecosphere/models/item/grandis_seed.json
-68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/handroanthus_branch.json
+1f9425675ff3d713f0dd06fd3d1177c66513087a assets/dt_expandedecosphere/models/item/handroanthus_branch.json
 5e7441eb0d381f527a3305d9935775decccd87de assets/dt_expandedecosphere/models/item/hwangshanensis_seed.json
+968e82a830ebe72bd4aee173d2e4294a071f6c85 assets/dt_expandedecosphere/models/item/impetiginosus_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/jacaranda_branch.json
 9367073899131bfa1d89a812f0e294531f5f81b7 assets/dt_expandedecosphere/models/item/jungle_palm_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/larix_branch.json

@@ -61,7 +61,7 @@
     "apply": {
       "species": {
         "random": {
-          "dt_expandedecosphere:mossy_dark_oak": 2,
+          "dt_expandedecosphere:dark_oak_mossy": 2,
           "dt_expandedecosphere:azalea_bush": 1
         }
       },
@@ -85,8 +85,8 @@
     "apply": {
       "species": {
         "random": {
-          "dt_expandedecosphere:mossy_oak": 4,
-          "dt_expandedecosphere:mossy_dark_oak": 2,
+          "dt_expandedecosphere:oak_mossy": 4,
+          "dt_expandedecosphere:dark_oak_mossy": 2,
           "dt_expandedecosphere:azalea_bush": 1
         }
       },
@@ -127,7 +127,7 @@
       "name": "wythers:ancient_taiga"
     },
     "apply": {
-      "species": "dt_expandedecosphere:ultra_spruce",
+      "species": "dt_expandedecosphere:spruce_ultra",
       "density": [
         2.2
       ],
@@ -236,7 +236,7 @@
     "apply": {
       "species": {
         "random": {
-          "dt_expandedecosphere:swamp_mangrove": 3,
+          "dt_expandedecosphere:mangrove_swamp": 3,
           "dt_expandedecosphere:dark_oak_swamp": 2
         }
       },
@@ -709,7 +709,7 @@
           "dt_expandedecosphere:azalea_bush": 1,
           "dt_expandedecosphere:spruce_bush": 1,
           "dt_expandedecosphere:deanei": 2,
-          "dt_expandedecosphere:mega_deanei": 4
+          "dt_expandedecosphere:deanei_mega": 4
         }
       },
       "density": [
@@ -733,7 +733,7 @@
         "random": {
           "dt_expandedecosphere:azalea_bush": 1,
           "dt_expandedecosphere:deanei": 2,
-          "dt_expandedecosphere:mega_deanei": 4,
+          "dt_expandedecosphere:deanei_mega": 4,
           "jungle": 4,
           "mega_jungle": 3,
           "cocoa": 1
@@ -762,7 +762,7 @@
         "random": {
           "dt_expandedecosphere:azalea_bush": 1,
           "dt_expandedecosphere:deanei": 2,
-          "dt_expandedecosphere:mega_deanei": 4,
+          "dt_expandedecosphere:deanei_mega": 4,
           "jungle": 4,
           "mega_jungle": 3,
           "cocoa": 1,
@@ -795,7 +795,7 @@
           "dt_expandedecosphere:deanei": 2,
           "jungle": 4,
           "dt_expandedecosphere:thorn_bush": 1,
-          "aparrerinja_leaves": 1
+          "dt_expandedecosphere:aparrerinja": 1
         }
       },
       "density": [
@@ -823,18 +823,6 @@
     }
   },
   {
-    "select": {
-      "name": "wythers:sakura_forest"
-    },
-    "apply": {
-      "species": "cherry",
-      "density": [
-        0.1
-      ],
-      "chance": 0.3
-    }
-  },
-  {
     "_comment": "",
     "select": {
       "name": "wythers:fen"
@@ -853,12 +841,112 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:flooded_jungle"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 1,
+          "dt_expandedecosphere:acacia_bush": 1,
+          "jungle": 4,
+          "mega_jungle": 3,
+          "cocoa": 1,
+          "dt_expandedecosphere:jungle_mega_submerged": 4
+        }
+      },
+      "density": [
+        2
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:flooded_rainforest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 1,
+          "dt_expandedecosphere:acacia_bush": 1,
+          "jungle": 4,
+          "mega_jungle": 3,
+          "cocoa": 1,
+          "dt_expandedecosphere:jungle_mega_submerged": 4
+        }
+      },
+      "density": [
+        3
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:flowering_pantanal"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "azalea": 1,
+          "dt_expandedecosphere:azalea_bush": 1,
+          "dt_expandedecosphere:impetiginosus": 1
+        }
+      },
+      "density": [
+        3
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:flooded_savanna"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 1,
+          "acacia": 1,
+          "azalea": 1
+        }
+      },
+      "density": [
+        1
+      ],
+      "chance": 0.3
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:sakura_forest"
+    },
+    "apply": {
+      "species": "cherry",
+      "density": [
+        0.1
+      ],
+      "chance": 0.3
+    }
+  },
+  {
     "_comment": "Roofed forests are handled specially. Multipass tries to close the canopy as much as possible.",
     "select": {
       "name": "wythers:forbidden_forest"
     },
     "apply": {
-      "species": "dt_expandedecosphere:eerie_dark_oak",
+      "species": "dt_expandedecosphere:dark_oak_eerie",
       "density": {
         "math": {
           "div": [

@@ -1,4 +1,5 @@
 {
+  "type": "dt_expandedecosphere:submersible",
   "family": "dt_expandedecosphere:taxodium",
   "acceptable_soils": [
     "dirt_like",

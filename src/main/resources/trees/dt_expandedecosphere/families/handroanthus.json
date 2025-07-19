@@ -1,8 +1,8 @@
 {
-  "common_leaves": "oak",
-  "common_species": "oak",
-  "primitive_log": "oak_log",
-  "primitive_stripped_log": "stripped_oak_log",
-  "max_branch_radius": 8,
-  "max_signal_depth": 16
+  "common_leaves": "dt_expandedecosphere:impetiginosus_leaves",
+  "common_species": "dt_expandedecosphere:impetiginosus",
+  "primitive_log": "acacia_log",
+  "primitive_stripped_log": "stripped_acacia_log",
+  "max_branch_radius": 24,
+  "max_signal_depth": 32
 }
