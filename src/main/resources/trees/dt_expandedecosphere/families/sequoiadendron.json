@@ -1,0 +1,8 @@
+{
+  "common_leaves": "spruce",
+  "primitive_log": "stripped_acacia_log",
+  "max_branch_radius": 32,
+  "generate_surface_root": true,
+  "max_signal_depth": 128,
+  "conifer_variants": true
+}

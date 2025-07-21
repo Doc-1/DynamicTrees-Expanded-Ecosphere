@@ -1,9 +1,13 @@
 {
-  "family": "oak",
-  "tapering": 1,
-  "signal_energy": 1,
-  "up_probability": 1,
-  "lowest_branch_height": 4,
-  "growth_rate": 1
+  "family": "dt_expandedecosphere:dalbergia",
+  "tapering": 0.2,
+  "signal_energy": 24.0,
+  "up_probability": 4,
+  "lowest_branch_height": 6,
+  "growth_rate": 1.25,
+  "leaves_properties": "dt_expandedecosphere:nigra_leaves",
+  "features": [
+    "bottom_flare"
+  ]
 }
 

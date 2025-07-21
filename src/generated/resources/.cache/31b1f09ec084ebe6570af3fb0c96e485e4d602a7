@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-18T18:05:19.3973454	Item Models: dt_expandedecosphere
+// 1.20.1	2025-07-19T14:04:41.692624	Item Models: dt_expandedecosphere
 63c5ea58f779c45d7cc6582d3959a22bb6f64386 assets/dt_expandedecosphere/models/item/acacia_swamp_seed.json
 a32c202fbb6da4e7a874208dd9cec27baf149104 assets/dt_expandedecosphere/models/item/acer_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/adansonia_branch.json
@@ -20,6 +20,7 @@ f2a57014acc44a2f9e6ab8c14c5638230bfa04ac assets/dt_expandedecosphere/models/item
 3aa564acd07bf90e1ce320fcf6daa98dadd8eb94 assets/dt_expandedecosphere/models/item/europaea_seed.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/fagus_branch.json
 b1242647cdf98030f44188475166b87bfdf9c9f9 assets/dt_expandedecosphere/models/item/fistula_seed.json
+941582cc47bfe9ca1192381a514564b8858c0809 assets/dt_expandedecosphere/models/item/giganteum_seed.json
 a5d59c918c3703ad1f9d33777142248f52ce345c assets/dt_expandedecosphere/models/item/grandifolia_seed.json
 3414fc6c8eae97d9860a626ad332d3741f541294 assets/dt_expandedecosphere/models/item/grandis_seed.json
 1f9425675ff3d713f0dd06fd3d1177c66513087a assets/dt_expandedecosphere/models/item/handroanthus_branch.json
@@ -43,6 +44,7 @@ b48867e7e06ba0fe1a34e6eb1e5959c4c6cf6021 assets/dt_expandedecosphere/models/item
 83a44320b5437a27a8f31d765d4a286f3e0d0fc2 assets/dt_expandedecosphere/models/item/salubris_seed.json
 88c3f02ac8ae87a85cffc2ecc1cb25886a237677 assets/dt_expandedecosphere/models/item/santalum_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/sclerocarya_branch.json
+9e25c32b378ee5c734863f174bf1ecc0ac21d6bb assets/dt_expandedecosphere/models/item/sequoiadendron_branch.json
 68c6183dee60590ec9cb99bb9ee56ec0cf8573d2 assets/dt_expandedecosphere/models/item/sequoia_branch.json
 62af4740fa865faaf841325a17e20113e11b1efa assets/dt_expandedecosphere/models/item/spruce_dwarf_seed.json
 de4e1bd549a1bb822fffd258a2db45bc81565471 assets/dt_expandedecosphere/models/item/strobus_seed.json

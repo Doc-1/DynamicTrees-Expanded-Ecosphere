@@ -1,0 +1,7 @@
+{
+  "family": "dt_expandedecosphere:dalbergia",
+  "type": "scruffy",
+  "primitive_leaves": "minecraft:acacia_leaves",
+  "cell_kit": "dynamictrees:acacia",
+  "scruffy_leaf_chance": 0.66
+}

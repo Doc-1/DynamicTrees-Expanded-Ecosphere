@@ -929,18 +929,6 @@
     }
   },
   {
-    "select": {
-      "name": "wythers:sakura_forest"
-    },
-    "apply": {
-      "species": "cherry",
-      "density": [
-        0.1
-      ],
-      "chance": 0.3
-    }
-  },
-  {
     "_comment": "Roofed forests are handled specially. Multipass tries to close the canopy as much as possible.",
     "select": {
       "name": "wythers:forbidden_forest"
@@ -957,6 +945,181 @@
       },
       "multipass": true,
       "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:forested_highlands"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:strobus": 6,
+          "dt_expandedecosphere:spruce_bush": 1
+        }
+      },
+      "density": [
+        {
+          "math": {
+            "div": [
+              "noise",
+              2.5
+            ]
+          }
+        },
+        0.3
+      ],
+      "multipass": true,
+      "chance": 1,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:forest_edge"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "oak": 1,
+          "dt_expandedecosphere:oak_bush": 1,
+          "dt_expandedecosphere:thorn_bush": 1
+        }
+      },
+      "density": [
+        {
+          "math": {
+            "div": [
+              "noise",
+              0.3
+            ]
+          }
+        },
+        2.5,
+        2.5
+      ],
+      "chance": 0.8
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:giant_sequoia_forest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:strobus": 1,
+          "dt_expandedecosphere:giganteum": 4
+        }
+      },
+      "density": [
+        {
+          "math": {
+            "div": [
+              "noise",
+              3
+            ]
+          }
+        },
+        {
+          "math": {
+            "div": [
+              "noise",
+              0.8
+            ]
+          }
+        }
+      ],
+      "chance": 0.8
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:harvest_fields"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "tall_birch": 2,
+          "oak": 3,
+          "dt_expandedecosphere:strobus": 1
+        }
+      },
+      "density": [
+        1.2
+      ],
+      "chance": 0.8,
+      "forestness": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:highland_tropical_rainforest"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:ebenum": 4,
+          "dt_expandedecosphere:grandis": 3,
+          "dt_expandedecosphere:album": 2,
+          "dt_expandedecosphere:nigra": 2
+        }
+      },
+      "density": [
+        {
+          "math": {
+            "div": [
+              "noise",
+              0.9
+            ]
+          }
+        }
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:huangshan_highlands"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "cherry": 1,
+          "dt_expandedecosphere:hwangshanensis": 2
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            1.4
+          ]
+        }
+      },
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:sakura_forest"
+    },
+    "apply": {
+      "species": "cherry",
+      "density": [
+        0.1
+      ],
+      "chance": 0.3
     }
   }
 ]
