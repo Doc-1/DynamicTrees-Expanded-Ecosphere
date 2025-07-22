@@ -11,9 +11,6 @@
     "cold": 0.75,
     "hot": 1.1
   },
-  "acceptable_soils": [
-    "sand_like"
-  ],
   "lang_overrides": {
     "seed": "Jungle Pod"
   },

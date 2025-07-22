@@ -1111,6 +1111,30 @@
     }
   },
   {
+    "_comment": "",
+    "select": {
+      "name": "wythers:humid_tropical_grassland"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_bush": 2,
+          "dt_expandedecosphere:macrophylla": 1,
+          "dt_expandedecosphere:ebenum": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            1
+          ]
+        }
+      },
+      "chance": 0.3
+    }
+  },
+  {
     "select": {
       "name": "wythers:sakura_forest"
     },
