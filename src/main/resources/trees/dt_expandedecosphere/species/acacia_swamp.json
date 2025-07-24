@@ -8,7 +8,7 @@
   "growth_logic_kit": {
     "name": "dt_expandedecosphere:angled",
     "properties": {
-      "max_height": 10
+      "max_branch_height": 10
     }
   },
   "leaves_properties": "acacia",

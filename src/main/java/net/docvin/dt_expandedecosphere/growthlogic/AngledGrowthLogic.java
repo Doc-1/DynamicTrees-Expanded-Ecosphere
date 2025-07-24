@@ -14,8 +14,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class AngledGrowthLogic extends GrowthLogicKit {
 
-    public static final ConfigurationProperty<Integer> MAX_HEIGHT = ConfigurationProperty.integer("max_height");
-    
+    public static final ConfigurationProperty<Integer> MAX_BRANCH_HEIGHT = ConfigurationProperty.integer("max_branch_height");
+
     public AngledGrowthLogic(ResourceLocation registryName) {
         super(registryName);
     }
@@ -27,12 +27,12 @@ public class AngledGrowthLogic extends GrowthLogicKit {
     @Override
     protected @NotNull GrowthLogicKitConfiguration createDefaultConfiguration() {
         return super.createDefaultConfiguration()
-                .with(MAX_HEIGHT, 10);
+                .with(MAX_BRANCH_HEIGHT, 10);
     }
 
     @Override
     protected void registerProperties() {
-        this.register(MAX_HEIGHT);
+        this.register(MAX_BRANCH_HEIGHT);
     }
 
     @Override
@@ -64,7 +64,7 @@ public class AngledGrowthLogic extends GrowthLogicKit {
             probMap[i] = flag ? 1 : 0;
         }
 
-        if (dist >= configuration.get(MAX_HEIGHT) && probMap[1] > 0)
+        if (dist >= configuration.get(MAX_BRANCH_HEIGHT) && probMap[1] > 0)
             signal.energy = 0;
         return probMap;
     }

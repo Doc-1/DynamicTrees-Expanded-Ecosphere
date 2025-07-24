@@ -10,7 +10,7 @@
   "growth_logic_kit": {
     "name": "dt_expandedecosphere:angled",
     "properties": {
-      "max_height": 18
+      "max_branch_height": 18
     }
   },
   "leaves_properties": "dt_expandedecosphere:aparrerinja_leaves",

@@ -1075,7 +1075,7 @@
           "math": {
             "div": [
               "noise",
-              0.9
+              1.1
             ]
           }
         }
@@ -1132,6 +1132,75 @@
         }
       },
       "chance": 0.3
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:jacaranda_savanna"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:azalea_conifer": 1,
+          "dt_expandedecosphere:azalea_bush": 2,
+          "dt_expandedecosphere:mimosifolia": 1
+        }
+      },
+      "density": {
+        "math": {
+          "div": [
+            "noise",
+            2.1
+          ]
+        }
+      },
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1.0
+    }
+  },
+  {
+    "select": {
+      "name": "wythers:jade_highlands"
+    },
+    "apply": {
+      "species": "dt_expandedecosphere:strobus",
+      "density": [
+        2.7
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1.0
+    }
+  },
+  {
+    "_comment": "",
+    "select": {
+      "name": "wythers:jungle_canyon"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_expandedecosphere:ebenum": 4,
+          "dt_expandedecosphere:grandis": 3,
+          "dt_expandedecosphere:album": 2,
+          "dt_expandedecosphere:nigra": 2
+        }
+      },
+      "density": [
+        {
+          "math": {
+            "div": [
+              "noise",
+              1.1
+            ]
+          }
+        }
+      ],
+      "multipass": true,
+      "forestness": 1.0,
+      "chance": 1
     }
   },
   {

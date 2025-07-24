@@ -20,7 +20,9 @@ plugins {
     id("com.matthewprenger.cursegradle") version "1.4.0"
     id("com.modrinth.minotaur") version "2.+"
     id("com.harleyoconnor.autoupdatetool") version "1.0.7"
+    id("org.spongepowered.mixin") version "0.7-SNAPSHOT"
 }
+
 
 repositories {
     maven("https://ldtteam.jfrog.io/ldtteam/modding/")
@@ -42,6 +44,8 @@ val dtVersion = property("dynamicTreesVersion")
 
 version = "$mcVersion-$modVersion"
 group = property("group")
+
+
 
 minecraft {
     mappings("parchment", "${property("mappingsVersion")}-$mcVersion")
@@ -98,6 +102,8 @@ dependencies {
     runtimeOnly(fg.deobf("curse.maven:cc-tweaked-282001:5118388"))
     runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193"))
     runtimeOnly(fg.deobf("vazkii.patchouli:Patchouli:${property("patchouliVersion")}"))
+
+    annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
 }
 
 tasks.jar {
@@ -122,6 +128,7 @@ java {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
+
 
 val changelogFile = file("build/changelog.txt")
 
@@ -160,12 +167,18 @@ fun RunConfig.applyDefaultConfiguration(runDirectory: String = "run") {
 
     property("mixin.env.remapRefMap", "true")
     property("mixin.env.refMapRemappingFile", "${buildDir}/createSrgToMcp/output.srg")
+    args("--mixin", "dt_expandedecosphere.mixins.json")
 
     mods {
         create(modId) {
             source(sourceSets.main.get())
         }
     }
+}
+
+mixin {
+    mixin.hotSwap = true
+    mixin.debug = true
 }
 
 fun CurseExtension.project(action: CurseProject.() -> Unit) {

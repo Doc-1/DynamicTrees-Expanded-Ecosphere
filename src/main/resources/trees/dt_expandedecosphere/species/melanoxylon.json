@@ -8,7 +8,7 @@
   "growth_logic_kit": {
     "name": "dt_expandedecosphere:angled",
     "properties": {
-      "max_height": 7
+      "max_branch_height": 7
     }
   },
   "leaves_properties": "dt_expandedecosphere:melanoxylon_leaves",
