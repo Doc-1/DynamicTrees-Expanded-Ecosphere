@@ -4,6 +4,7 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "mixins.dt_expandedecosphere.refmap.json",
   "mixins": [
+    "FamilyMixin",
     "GrowthLogicKitMixin"
   ],
   "client": [],

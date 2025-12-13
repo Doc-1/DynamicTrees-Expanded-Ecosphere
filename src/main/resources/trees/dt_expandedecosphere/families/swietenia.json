@@ -4,6 +4,6 @@
   "primitive_log": "oak_log",
   "primitive_stripped_log": "stripped_oak_log",
   "max_branch_radius": 24,
-  "generate_surface_root": true,
+  "generate_buttress_root": true,
   "max_signal_depth": 64
 }
